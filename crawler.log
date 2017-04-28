@@ -1,0 +1,229 @@
+2017-04-20 09:41:26,381 *********proessing domain[socialblade]*********
+2017-04-20 09:42:01,519 *********proessing domain[socialblade]*********
+2017-04-20 09:42:17,877 *********proessing domain[socialblade]*********
+2017-04-20 09:42:17,891 processing domain[socialblade] hub [https://socialblade.com/youtube/top/5000], [7] left
+2017-04-20 09:42:17,891 processing detail [https://socialblade.com/youtube/top/5000], [0] left
+2017-04-20 09:42:18,798 processing domain[socialblade], hub[https://socialblade.com/youtube/top/5000], detail:[https://socialblade.com/youtube/top/5000] failed for [(60, 'SSL certificate problem: unable to get local issuer certificate')]
+2017-04-20 09:42:18,798 processing domain[socialblade] hub [https://socialblade.com/youtube/top/networks], [6] left
+2017-04-20 09:42:18,798 processing detail [https://socialblade.com/youtube/top/networks], [0] left
+2017-04-20 09:42:19,115 processing domain[socialblade], hub[https://socialblade.com/youtube/top/networks], detail:[https://socialblade.com/youtube/top/networks] failed for [(60, 'SSL certificate problem: unable to get local issuer certificate')]
+2017-04-20 09:42:19,115 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/us], [5] left
+2017-04-20 09:42:19,115 processing detail [https://socialblade.com/youtube/top/country/us], [0] left
+2017-04-20 09:42:19,418 processing domain[socialblade], hub[https://socialblade.com/youtube/top/country/us], detail:[https://socialblade.com/youtube/top/country/us] failed for [(60, 'SSL certificate problem: unable to get local issuer certificate')]
+2017-04-20 09:42:19,418 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/gb], [4] left
+2017-04-20 09:42:19,418 processing detail [https://socialblade.com/youtube/top/country/gb], [0] left
+2017-04-20 09:42:19,753 processing domain[socialblade], hub[https://socialblade.com/youtube/top/country/gb], detail:[https://socialblade.com/youtube/top/country/gb] failed for [(60, 'SSL certificate problem: unable to get local issuer certificate')]
+2017-04-20 09:42:19,753 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/jp], [3] left
+2017-04-20 09:42:19,753 processing detail [https://socialblade.com/youtube/top/country/jp], [0] left
+2017-04-20 09:42:20,075 processing domain[socialblade], hub[https://socialblade.com/youtube/top/country/jp], detail:[https://socialblade.com/youtube/top/country/jp] failed for [(60, 'SSL certificate problem: unable to get local issuer certificate')]
+2017-04-20 09:42:20,076 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/kr], [2] left
+2017-04-20 09:42:20,076 processing detail [https://socialblade.com/youtube/top/country/kr], [0] left
+2017-04-20 09:42:20,385 processing domain[socialblade], hub[https://socialblade.com/youtube/top/country/kr], detail:[https://socialblade.com/youtube/top/country/kr] failed for [(60, 'SSL certificate problem: unable to get local issuer certificate')]
+2017-04-20 09:42:20,385 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/br], [1] left
+2017-04-20 09:42:20,385 processing detail [https://socialblade.com/youtube/top/country/br], [0] left
+2017-04-20 09:42:20,717 processing domain[socialblade], hub[https://socialblade.com/youtube/top/country/br], detail:[https://socialblade.com/youtube/top/country/br] failed for [(60, 'SSL certificate problem: unable to get local issuer certificate')]
+2017-04-20 09:45:01,776 *********proessing domain[socialblade]*********
+2017-04-20 09:45:01,812 processing domain[socialblade] hub [https://socialblade.com/youtube/top/5000], [7] left
+2017-04-20 09:45:01,812 processing detail [https://socialblade.com/youtube/top/5000], [0] left
+2017-04-20 09:45:16,190 processing domain[socialblade] hub [https://socialblade.com/youtube/top/networks], [6] left
+2017-04-20 09:45:16,190 processing detail [https://socialblade.com/youtube/top/networks], [0] left
+2017-04-20 09:45:17,782 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/us], [5] left
+2017-04-20 09:45:17,782 processing detail [https://socialblade.com/youtube/top/country/us], [0] left
+2017-04-20 09:45:19,280 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/gb], [4] left
+2017-04-20 09:45:19,280 processing detail [https://socialblade.com/youtube/top/country/gb], [0] left
+2017-04-20 09:45:20,809 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/jp], [3] left
+2017-04-20 09:45:20,809 processing detail [https://socialblade.com/youtube/top/country/jp], [0] left
+2017-04-20 09:45:22,302 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/kr], [2] left
+2017-04-20 09:45:22,302 processing detail [https://socialblade.com/youtube/top/country/kr], [0] left
+2017-04-20 09:45:23,851 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/br], [1] left
+2017-04-20 09:45:23,851 processing detail [https://socialblade.com/youtube/top/country/br], [0] left
+2017-04-20 09:54:37,015 *********proessing domain[socialblade]*********
+2017-04-20 09:54:37,049 processing domain[socialblade] hub [https://socialblade.com/youtube/top/5000], [7] left
+2017-04-20 09:54:37,049 processing detail [https://socialblade.com/youtube/top/5000], [0] left
+2017-04-20 09:54:51,736 processing domain[socialblade] hub [https://socialblade.com/youtube/top/networks], [6] left
+2017-04-20 09:54:51,736 processing detail [https://socialblade.com/youtube/top/networks], [0] left
+2017-04-20 09:54:53,345 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/us], [5] left
+2017-04-20 09:54:53,345 processing detail [https://socialblade.com/youtube/top/country/us], [0] left
+2017-04-20 09:54:54,888 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/gb], [4] left
+2017-04-20 09:54:54,888 processing detail [https://socialblade.com/youtube/top/country/gb], [0] left
+2017-04-20 09:54:56,438 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/jp], [3] left
+2017-04-20 09:54:56,438 processing detail [https://socialblade.com/youtube/top/country/jp], [0] left
+2017-04-20 09:54:57,990 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/kr], [2] left
+2017-04-20 09:54:57,990 processing detail [https://socialblade.com/youtube/top/country/kr], [0] left
+2017-04-20 09:54:59,538 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/br], [1] left
+2017-04-20 09:54:59,538 processing detail [https://socialblade.com/youtube/top/country/br], [0] left
+2017-04-20 09:56:32,819 *********proessing domain[socialblade]*********
+2017-04-20 09:56:32,835 processing domain[socialblade] hub [https://socialblade.com/youtube/top/5000], [7] left
+2017-04-20 09:56:32,835 processing detail [https://socialblade.com/youtube/top/5000], [0] left
+2017-04-20 09:56:47,871 processing domain[socialblade] hub [https://socialblade.com/youtube/top/networks], [6] left
+2017-04-20 09:56:47,871 processing detail [https://socialblade.com/youtube/top/networks], [0] left
+2017-04-20 09:56:49,663 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/us], [5] left
+2017-04-20 09:56:49,663 processing detail [https://socialblade.com/youtube/top/country/us], [0] left
+2017-04-20 09:56:51,403 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/gb], [4] left
+2017-04-20 09:56:51,403 processing detail [https://socialblade.com/youtube/top/country/gb], [0] left
+2017-04-20 09:56:53,138 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/jp], [3] left
+2017-04-20 09:56:53,138 processing detail [https://socialblade.com/youtube/top/country/jp], [0] left
+2017-04-20 09:56:54,696 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/kr], [2] left
+2017-04-20 09:56:54,696 processing detail [https://socialblade.com/youtube/top/country/kr], [0] left
+2017-04-20 09:56:56,253 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/br], [1] left
+2017-04-20 09:56:56,253 processing detail [https://socialblade.com/youtube/top/country/br], [0] left
+2017-04-20 09:57:38,766 *********proessing domain[socialblade]*********
+2017-04-20 09:57:38,778 processing domain[socialblade] hub [https://socialblade.com/youtube/top/5000], [7] left
+2017-04-20 09:57:38,778 processing detail [https://socialblade.com/youtube/top/5000], [0] left
+2017-04-20 10:00:48,865 *********proessing domain[socialblade]*********
+2017-04-20 10:00:48,897 processing domain[socialblade] hub [https://socialblade.com/youtube/top/5000], [7] left
+2017-04-20 10:00:48,897 processing detail [https://socialblade.com/youtube/top/5000], [0] left
+2017-04-20 10:01:26,107 processing domain[socialblade], hub[https://socialblade.com/youtube/top/5000], detail:[https://socialblade.com/youtube/top/5000] failed for ['list' object has no attribute 'startswith']
+2017-04-20 10:01:26,107 processing domain[socialblade] hub [https://socialblade.com/youtube/top/networks], [6] left
+2017-04-20 10:01:26,108 processing detail [https://socialblade.com/youtube/top/networks], [0] left
+2017-04-20 10:01:39,289 *********proessing domain[socialblade]*********
+2017-04-20 10:01:39,315 processing domain[socialblade] hub [https://socialblade.com/youtube/top/5000], [7] left
+2017-04-20 10:01:39,315 processing detail [https://socialblade.com/youtube/top/5000], [0] left
+2017-04-20 10:01:51,460 processing domain[socialblade], hub[https://socialblade.com/youtube/top/5000], detail:[https://socialblade.com/youtube/top/5000] failed for ['list' object has no attribute 'startswith']
+2017-04-20 10:01:51,460 processing domain[socialblade] hub [https://socialblade.com/youtube/top/networks], [6] left
+2017-04-20 10:01:51,460 processing detail [https://socialblade.com/youtube/top/networks], [0] left
+2017-04-20 10:01:51,996 processing domain[socialblade], hub[https://socialblade.com/youtube/top/networks], detail:[https://socialblade.com/youtube/top/networks] failed for ['list' object has no attribute 'startswith']
+2017-04-20 10:01:51,996 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/us], [5] left
+2017-04-20 10:01:51,996 processing detail [https://socialblade.com/youtube/top/country/us], [0] left
+2017-04-20 10:01:52,492 processing domain[socialblade], hub[https://socialblade.com/youtube/top/country/us], detail:[https://socialblade.com/youtube/top/country/us] failed for ['list' object has no attribute 'startswith']
+2017-04-20 10:01:52,492 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/gb], [4] left
+2017-04-20 10:01:52,492 processing detail [https://socialblade.com/youtube/top/country/gb], [0] left
+2017-04-20 10:01:53,003 processing domain[socialblade], hub[https://socialblade.com/youtube/top/country/gb], detail:[https://socialblade.com/youtube/top/country/gb] failed for ['list' object has no attribute 'startswith']
+2017-04-20 10:01:53,003 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/jp], [3] left
+2017-04-20 10:01:53,003 processing detail [https://socialblade.com/youtube/top/country/jp], [0] left
+2017-04-20 10:01:53,506 processing domain[socialblade], hub[https://socialblade.com/youtube/top/country/jp], detail:[https://socialblade.com/youtube/top/country/jp] failed for ['list' object has no attribute 'startswith']
+2017-04-20 10:01:53,507 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/kr], [2] left
+2017-04-20 10:01:53,507 processing detail [https://socialblade.com/youtube/top/country/kr], [0] left
+2017-04-20 10:01:54,062 processing domain[socialblade], hub[https://socialblade.com/youtube/top/country/kr], detail:[https://socialblade.com/youtube/top/country/kr] failed for ['list' object has no attribute 'startswith']
+2017-04-20 10:01:54,062 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/br], [1] left
+2017-04-20 10:01:54,062 processing detail [https://socialblade.com/youtube/top/country/br], [0] left
+2017-04-20 10:01:54,589 processing domain[socialblade], hub[https://socialblade.com/youtube/top/country/br], detail:[https://socialblade.com/youtube/top/country/br] failed for ['list' object has no attribute 'startswith']
+2017-04-20 10:04:36,694 *********proessing domain[socialblade]*********
+2017-04-20 10:04:36,732 processing domain[socialblade] hub [https://socialblade.com/youtube/top/networks], [6] left
+2017-04-20 10:04:36,732 processing detail [https://socialblade.com/youtube/top/networks], [0] left
+2017-04-20 10:04:38,138 processing domain[socialblade], hub[https://socialblade.com/youtube/top/networks], detail:[https://socialblade.com/youtube/top/networks] failed for ['list' object has no attribute 'startswith']
+2017-04-20 10:04:38,138 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/us], [5] left
+2017-04-20 10:04:38,138 processing detail [https://socialblade.com/youtube/top/country/us], [0] left
+2017-04-20 10:04:38,684 processing domain[socialblade], hub[https://socialblade.com/youtube/top/country/us], detail:[https://socialblade.com/youtube/top/country/us] failed for ['list' object has no attribute 'startswith']
+2017-04-20 10:04:38,684 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/gb], [4] left
+2017-04-20 10:04:38,684 processing detail [https://socialblade.com/youtube/top/country/gb], [0] left
+2017-04-20 10:04:39,200 processing domain[socialblade], hub[https://socialblade.com/youtube/top/country/gb], detail:[https://socialblade.com/youtube/top/country/gb] failed for ['list' object has no attribute 'startswith']
+2017-04-20 10:04:39,200 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/jp], [3] left
+2017-04-20 10:04:39,200 processing detail [https://socialblade.com/youtube/top/country/jp], [0] left
+2017-04-20 10:04:39,723 processing domain[socialblade], hub[https://socialblade.com/youtube/top/country/jp], detail:[https://socialblade.com/youtube/top/country/jp] failed for ['list' object has no attribute 'startswith']
+2017-04-20 10:04:39,723 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/kr], [2] left
+2017-04-20 10:04:39,723 processing detail [https://socialblade.com/youtube/top/country/kr], [0] left
+2017-04-20 10:04:40,256 processing domain[socialblade], hub[https://socialblade.com/youtube/top/country/kr], detail:[https://socialblade.com/youtube/top/country/kr] failed for ['list' object has no attribute 'startswith']
+2017-04-20 10:04:40,256 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/br], [1] left
+2017-04-20 10:04:40,256 processing detail [https://socialblade.com/youtube/top/country/br], [0] left
+2017-04-20 10:04:40,601 processing domain[socialblade], hub[https://socialblade.com/youtube/top/country/br], detail:[https://socialblade.com/youtube/top/country/br] failed for ['list' object has no attribute 'startswith']
+2017-04-20 10:05:44,990 *********proessing domain[socialblade]*********
+2017-04-20 10:05:45,023 processing domain[socialblade] hub [https://socialblade.com/youtube/top/networks], [6] left
+2017-04-20 10:05:45,023 processing detail [https://socialblade.com/youtube/top/networks], [0] left
+2017-04-20 10:08:06,503 *********proessing domain[socialblade]*********
+2017-04-20 10:08:06,532 processing domain[socialblade] hub [https://socialblade.com/youtube/top/networks], [6] left
+2017-04-20 10:08:06,532 processing detail [https://socialblade.com/youtube/top/networks], [0] left
+2017-04-20 10:08:09,177 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/us], [5] left
+2017-04-20 10:08:09,177 processing detail [https://socialblade.com/youtube/top/country/us], [0] left
+2017-04-20 10:08:10,730 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/gb], [4] left
+2017-04-20 10:08:10,730 processing detail [https://socialblade.com/youtube/top/country/gb], [0] left
+2017-04-20 10:08:12,293 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/jp], [3] left
+2017-04-20 10:08:12,293 processing detail [https://socialblade.com/youtube/top/country/jp], [0] left
+2017-04-20 10:08:13,839 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/kr], [2] left
+2017-04-20 10:08:13,839 processing detail [https://socialblade.com/youtube/top/country/kr], [0] left
+2017-04-20 10:08:15,394 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/br], [1] left
+2017-04-20 10:08:15,394 processing detail [https://socialblade.com/youtube/top/country/br], [0] left
+2017-04-20 10:38:20,134 *********proessing domain[socialblade]*********
+2017-04-20 10:38:20,168 processing domain[socialblade] hub [https://socialblade.com/youtube/top/networks], [6] left
+2017-04-20 10:38:20,168 processing detail [https://socialblade.com/youtube/top/networks], [0] left
+2017-04-20 10:38:38,582 *********proessing domain[socialblade]*********
+2017-04-20 10:38:38,599 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/us], [5] left
+2017-04-20 10:38:38,599 processing detail [https://socialblade.com/youtube/top/country/us], [0] left
+2017-04-20 10:40:09,348 *********proessing domain[socialblade]*********
+2017-04-20 10:40:09,361 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/us], [5] left
+2017-04-20 10:40:09,361 processing detail [https://socialblade.com/youtube/top/country/us], [0] left
+2017-04-20 10:40:59,542 *********proessing domain[socialblade]*********
+2017-04-20 10:40:59,571 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/us], [5] left
+2017-04-20 10:40:59,572 processing detail [https://socialblade.com/youtube/top/country/us], [0] left
+2017-04-20 10:41:47,043 *********proessing domain[socialblade]*********
+2017-04-20 10:41:47,055 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/us], [5] left
+2017-04-20 10:41:47,055 processing detail [https://socialblade.com/youtube/top/country/us], [0] left
+2017-04-20 10:41:49,322 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/gb], [4] left
+2017-04-20 10:41:49,322 processing detail [https://socialblade.com/youtube/top/country/gb], [0] left
+2017-04-20 10:41:51,062 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/jp], [3] left
+2017-04-20 10:41:51,062 processing detail [https://socialblade.com/youtube/top/country/jp], [0] left
+2017-04-20 10:41:52,608 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/kr], [2] left
+2017-04-20 10:41:52,608 processing detail [https://socialblade.com/youtube/top/country/kr], [0] left
+2017-04-20 10:41:54,122 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/br], [1] left
+2017-04-20 10:41:54,122 processing detail [https://socialblade.com/youtube/top/country/br], [0] left
+2017-04-20 10:43:10,717 *********proessing domain[socialblade]*********
+2017-04-20 10:43:10,755 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/us], [5] left
+2017-04-20 10:43:10,756 processing detail [https://socialblade.com/youtube/top/country/us], [0] left
+2017-04-20 10:43:13,075 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/gb], [4] left
+2017-04-20 10:43:13,075 processing detail [https://socialblade.com/youtube/top/country/gb], [0] left
+2017-04-20 10:43:14,608 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/jp], [3] left
+2017-04-20 10:43:14,608 processing detail [https://socialblade.com/youtube/top/country/jp], [0] left
+2017-04-20 10:43:16,141 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/kr], [2] left
+2017-04-20 10:43:16,141 processing detail [https://socialblade.com/youtube/top/country/kr], [0] left
+2017-04-20 10:43:17,872 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/br], [1] left
+2017-04-20 10:43:17,872 processing detail [https://socialblade.com/youtube/top/country/br], [0] left
+2017-04-20 10:48:04,124 *********proessing domain[socialblade]*********
+2017-04-20 10:48:04,142 processing domain[socialblade] hub [https://socialblade.com/youtube/top/5000], [7] left
+2017-04-20 10:48:04,142 processing detail [https://socialblade.com/youtube/top/5000], [0] left
+2017-04-20 10:48:22,029 processing domain[socialblade] hub [https://socialblade.com/youtube/top/networks], [6] left
+2017-04-20 10:48:22,029 processing detail [https://socialblade.com/youtube/top/networks], [0] left
+2017-04-20 10:48:23,640 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/us], [5] left
+2017-04-20 10:48:23,640 processing detail [https://socialblade.com/youtube/top/country/us], [0] left
+2017-04-20 10:48:46,627 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/gb], [4] left
+2017-04-20 10:48:46,627 processing detail [https://socialblade.com/youtube/top/country/gb], [0] left
+2017-04-20 10:48:48,148 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/jp], [3] left
+2017-04-20 10:48:48,148 processing detail [https://socialblade.com/youtube/top/country/jp], [0] left
+2017-04-20 10:48:49,690 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/kr], [2] left
+2017-04-20 10:48:49,690 processing detail [https://socialblade.com/youtube/top/country/kr], [0] left
+2017-04-20 10:48:51,220 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/br], [1] left
+2017-04-20 10:48:51,220 processing detail [https://socialblade.com/youtube/top/country/br], [0] left
+2017-04-20 10:57:01,605 *********proessing domain[socialblade]*********
+2017-04-20 10:57:01,640 processing domain[socialblade] hub [https://socialblade.com/youtube/top/5000], [7] left
+2017-04-20 10:57:01,641 processing detail [https://socialblade.com/youtube/top/5000], [0] left
+2017-04-20 10:57:27,040 processing domain[socialblade] hub [https://socialblade.com/youtube/top/networks], [6] left
+2017-04-20 10:57:27,040 processing detail [https://socialblade.com/youtube/top/networks], [0] left
+2017-04-20 10:57:28,650 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/us], [5] left
+2017-04-20 10:57:28,650 processing detail [https://socialblade.com/youtube/top/country/us], [0] left
+2017-04-20 10:57:30,052 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/gb], [4] left
+2017-04-20 10:57:30,052 processing detail [https://socialblade.com/youtube/top/country/gb], [0] left
+2017-04-20 10:57:31,779 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/jp], [3] left
+2017-04-20 10:57:31,779 processing detail [https://socialblade.com/youtube/top/country/jp], [0] left
+2017-04-20 10:57:33,315 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/kr], [2] left
+2017-04-20 10:57:33,315 processing detail [https://socialblade.com/youtube/top/country/kr], [0] left
+2017-04-20 10:57:34,877 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/br], [1] left
+2017-04-20 10:57:34,877 processing detail [https://socialblade.com/youtube/top/country/br], [0] left
+2017-04-20 10:59:13,798 *********proessing domain[socialblade]*********
+2017-04-20 10:59:13,828 processing domain[socialblade] hub [https://socialblade.com/youtube/top/5000], [7] left
+2017-04-20 10:59:13,828 processing detail [https://socialblade.com/youtube/top/5000], [0] left
+2017-04-20 10:59:31,996 processing domain[socialblade] hub [https://socialblade.com/youtube/top/networks], [6] left
+2017-04-20 10:59:31,996 processing detail [https://socialblade.com/youtube/top/networks], [0] left
+2017-04-20 10:59:33,877 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/us], [5] left
+2017-04-20 10:59:33,877 processing detail [https://socialblade.com/youtube/top/country/us], [0] left
+2017-04-20 10:59:35,428 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/gb], [4] left
+2017-04-20 10:59:35,428 processing detail [https://socialblade.com/youtube/top/country/gb], [0] left
+2017-04-20 10:59:36,982 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/jp], [3] left
+2017-04-20 10:59:36,982 processing detail [https://socialblade.com/youtube/top/country/jp], [0] left
+2017-04-20 10:59:38,530 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/kr], [2] left
+2017-04-20 10:59:38,530 processing detail [https://socialblade.com/youtube/top/country/kr], [0] left
+2017-04-20 10:59:40,089 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/br], [1] left
+2017-04-20 10:59:40,089 processing detail [https://socialblade.com/youtube/top/country/br], [0] left
+2017-04-20 11:00:43,950 *********proessing domain[socialblade]*********
+2017-04-20 11:00:43,980 processing domain[socialblade] hub [https://socialblade.com/youtube/top/5000], [7] left
+2017-04-20 11:00:43,980 processing detail [https://socialblade.com/youtube/top/5000], [0] left
+2017-04-20 11:01:05,869 processing domain[socialblade] hub [https://socialblade.com/youtube/top/networks], [6] left
+2017-04-20 11:01:05,869 processing detail [https://socialblade.com/youtube/top/networks], [0] left
+2017-04-20 11:01:07,451 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/us], [5] left
+2017-04-20 11:01:07,451 processing detail [https://socialblade.com/youtube/top/country/us], [0] left
+2017-04-20 11:01:09,019 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/gb], [4] left
+2017-04-20 11:01:09,019 processing detail [https://socialblade.com/youtube/top/country/gb], [0] left
+2017-04-20 11:01:10,571 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/jp], [3] left
+2017-04-20 11:01:10,571 processing detail [https://socialblade.com/youtube/top/country/jp], [0] left
+2017-04-20 11:01:12,122 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/kr], [2] left
+2017-04-20 11:01:12,122 processing detail [https://socialblade.com/youtube/top/country/kr], [0] left
+2017-04-20 11:01:14,188 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/br], [1] left
+2017-04-20 11:01:14,188 processing detail [https://socialblade.com/youtube/top/country/br], [0] left
