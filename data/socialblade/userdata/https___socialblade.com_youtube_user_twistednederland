@@ -1,0 +1,284 @@
+https://socialblade.com/youtube/user/twistednederland
+Uploads144
+144
+Subscribers0
+0
+Video Views49,136,979
+49136979
+CountryUS
+US
+https://socialblade.com//socialblade.com/youtube/top/country/us
+Channel TypeEntertainment
+entertainment
+https://socialblade.com//socialblade.com/youtube/top/category/entertainment
+User CreatedAug 12th, 2011
+Hello, visitor! Please consider adding SocialBlade.com to your adblock whitelist. Our ads support the development and upkeep of the site. Upgrade to a Premium Subscription to load the site without ads.
+YouTube Consulting
+YouTube Education
+YouTube Stats Summary / User Statistics for twistednederland (Apr 20th, 2017 - May 3rd, 2017)
+DATE
+SUBSCRIBERS
+VIDEO VIEWS
+ESTIMATED EARNINGS
+2017-04-20
+Thu
+--
+11,005
++336,837
+42,999,087
+$84  -  $1.3K
+2017-04-21
+Fri
+--
+11,005
++300,588
+43,299,675
+$75  -  $1.2K
+2017-04-22
+Sat
+--
+11,005
++384,333
+43,684,008
+$96  -  $1.5K
+2017-04-23
+Sun
+--
+11,005
++475,395
+44,159,403
+$119  -  $1.9K
+2017-04-24
+Mon
+--
+11,005
++406,407
+44,565,810
+$102  -  $1.6K
+2017-04-25
+Tue
+--
+11,005
+--
+44,565,810
+$0  -  $0
+2017-04-26
+Wed
+--
+11,005
++424,076
+44,989,886
+$106  -  $1.7K
+2017-04-27
+Thu
+--
+11,005
+--
+44,989,886
+$0  -  $0
+2017-04-28
+Fri
+--
+11,005
++1,705,917
+46,695,803
+$426  -  $6.8K
+2017-04-29
+Sat
+--
+11,005
++687,580
+47,383,383
+$172  -  $2.8K
+2017-04-30
+Sun
+--
+11,005
++601,539
+47,984,922
+$150  -  $2.4K
+2017-05-01
+Mon
+--
+11,005
++1,152,057
+49,136,979
+$288  -  $4.6K
+2017-05-02
+Tue
+--
+11,005
+--
+49,136,979
+$0  -  $0
+2017-05-03
+Wed
+--
+11,005 LIVE
+--
+49,136,979
+$0  -  $0
+Daily Averages
+--
++381,688
+$95  -  $1.5K
+Last 30 Days
+--
++11,450,640
+$2.9K  -  $45.8K
+https://socialblade.com/products/subscription
+
+------->>>>>>>
+Hello, visitor! Please consider adding SocialBlade.com to your adblock whitelist. Our ads support the development and upkeep of the site. Upgrade to a Premium Subscription to load the site without ads.
+Future Subscribers and View Predictions twistednederland (Next 5 years)
+Time Milestones
+Subscriber Milestones
+Viewer Milestones
+GOAL DATE
+•TIME UNTIL•
+SUBS PREDICTION
+VIEWS PREDICTION
+SHARE THIS GOAL
+2017-05-03
+-- Now --
+0
+49,136,979
+2017-06-02
+30 days
+0
+60,755,000
+2017-07-02
+60 days
+0
+72,373,000
+2017-08-02
+3 months
+0
+83,990,000
+2017-11-01
+6 months
+0
+118,843,000
+2018-01-31
+9 months
+0
+153,696,000
+2018-05-03
+1 year
+0
+188,549,000
+2018-08-02
+1yr 3mo
+0
+223,402,000
+2018-11-01
+1yr 6mo
+0
+258,255,000
+2019-02-01
+1yr 9mo
+0
+293,108,000
+2019-05-03
+2 years
+0
+327,961,000
+2019-08-02
+2yr 3mo
+0
+362,813,000
+2019-11-02
+2yr 6mo
+0
+397,666,000
+2020-02-01
+2yr 9mo
+0
+432,519,000
+2020-05-02
+3 years
+0
+467,372,000
+2020-08-02
+3yr 3mo
+0
+502,225,000
+2020-11-01
+3yr 6mo
+0
+537,078,000
+2021-01-31
+3yr 9mo
+0
+571,931,000
+2021-05-03
+4 years
+0
+606,784,000
+2021-08-02
+4yr 3mo
+0
+641,637,000
+2021-11-01
+4yr 6mo
+0
+676,489,000
+2022-01-31
+4yr 9mo
+0
+711,342,000
+2022-05-03
+5 years
+0
+746,195,000
+See Full Monthly Statistics
+Share on Facebook
+Tweet This
+Share On Google+
+g = new Dygraph(
+// containing div
+document.getElementById('FutureSubs'),
+// CSV or path to a CSV file.
+"Date,Future Subs\n" + "2017-06-02,0\n" + "2017-07-03,0\n" + "2017-08-02,0\n" + "2017-11-02,0\n" + "2018-02-01,0\n" + "2018-05-03,0\n" + "2018-08-02,0\n" + "2018-11-02,0\n" + "2019-02-01,0\n" + "2019-05-03,0\n" + "2019-08-03,0\n" + "2019-11-02,0\n" + "2020-02-01,0\n" + "2020-05-03,0\n" + "2020-08-02,0\n" + "2020-11-01,0\n" + "2021-02-01,0\n" + "2021-05-03,0\n" + "2021-08-02,0\n" + "2021-11-02,0\n" + "2022-02-01,0\n" + "2022-05-03,0\n", {
+title: 'Future Subscribers Per Milestone for twistednederland ',
+legend: 'always',
+ylabel: 'Future Subs',
+titleHeight: 20,
+labelsDivStyles: {
+'background': 'none',
+'margin-top': '-10px',
+'text-align': 'right',
+},
+strokeWidth: 1,
+colors: ["#dd2323",
+"#dd2323",
+"#dd2323",
+"#dd2323"],
+labelsKMB: true,
+maxNumberWidth: 10
+}
+);
+g = new Dygraph(
+// containing div
+document.getElementById('FutureViews'),
+// CSV or path to a CSV file.
+"Date,Future Views\n" + "2017-06-02,60754607.5\n" + "2017-07-03,72372236\n" + "2017-08-02,83989864.5\n" + "2017-11-02,118842750\n" + "2018-02-01,153695635.5\n" + "2018-05-03,188548521\n" + "2018-08-02,223401406.5\n" + "2018-11-02,258254292\n" + "2019-02-01,293107177.5\n" + "2019-05-03,327960063\n" + "2019-08-03,362812948.5\n" + "2019-11-02,397665834\n" + "2020-02-01,432518719.5\n" + "2020-05-03,467371605\n" + "2020-08-02,502224490.5\n" + "2020-11-01,537077376\n" + "2021-02-01,571930261.5\n" + "2021-05-03,606783147\n" + "2021-08-02,641636032.5\n" + "2021-11-02,676488918\n" + "2022-02-01,711341803.5\n" + "2022-05-03,746194689\n", {
+title: 'Future Views Per Milestone for twistednederland ',
+legend: 'always',
+ylabel: 'Future Views',
+titleHeight: 20,
+labelsDivStyles: {
+'background': 'none',
+'margin-top': '-10px',
+'text-align': 'right',
+},
+strokeWidth: 1,
+colors: ["#dd2323",
+"#dd2323",
+"#dd2323",
+"#dd2323"],
+labelsKMB: true,
+maxNumberWidth: 10
+}
+);
+https://socialblade.com/products/subscription

@@ -259,7 +259,23 @@ def init_log():
 
 
 if __name__ == '__main__':
-    post_process_for_socialblade("./data/socialblade/")
+    with open("text",'r')as fp:
+        lines = fp.readlines()
+        myset = set()
+        list = ""
+        files = os.listdir("./data/socialblade/userdata/")
+        for line in lines:
+            myset.add(line.strip())
+        for web in myset:
+            if get_name_form_url(web) not in files:
+                list+=web+'\n'
+        print len(list)
+        with open("ramain","w") as wfp:
+            wfp.write(list)
+
+
+        import pdb;pdb.set_trace()
+    # post_process_for_socialblade("./data/socialblade/")
     # words = list()
     # with open('target2', 'r') as fp:
     #     words = json.loads(fp.read())

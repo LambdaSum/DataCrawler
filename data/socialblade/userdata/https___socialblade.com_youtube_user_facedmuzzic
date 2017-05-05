@@ -1,0 +1,283 @@
+https://socialblade.com/youtube/user/facedmuzzic
+Uploads324
+324
+Subscribers0
+0
+Video Views143,987,725
+143987725
+Country
+https://socialblade.com//socialblade.com/youtube/top/country/
+Channel TypeFilm
+film
+https://socialblade.com//socialblade.com/youtube/top/category/film
+User CreatedAug 30th, 2010
+Hello, visitor! Please consider adding SocialBlade.com to your adblock whitelist. Our ads support the development and upkeep of the site. Upgrade to a Premium Subscription to load the site without ads.
+YouTube Consulting
+YouTube Education
+YouTube Stats Summary / User Statistics for facedmuzzic (Apr 20th, 2017 - May 3rd, 2017)
+DATE
+SUBSCRIBERS
+VIDEO VIEWS
+ESTIMATED EARNINGS
+2017-04-20
+Thu
+--
+206,551
++535,566
+136,878,900
+$134  -  $2.1K
+2017-04-21
+Fri
+--
+206,551
++582,858
+137,461,758
+$146  -  $2.3K
+2017-04-22
+Sat
+--
+206,551
++648,278
+138,110,036
+$162  -  $2.6K
+2017-04-23
+Sun
+--
+206,551
++676,449
+138,786,485
+$169  -  $2.7K
+2017-04-24
+Mon
+--
+206,551
++742,734
+139,529,219
+$186  -  $3K
+2017-04-25
+Tue
+--
+206,551
+--
+139,529,219
+$0  -  $0
+2017-04-26
+Wed
+--
+206,551
++589,984
+140,119,203
+$147  -  $2.4K
+2017-04-27
+Thu
+--
+206,551
++1,027,795
+141,146,998
+$257  -  $4.1K
+2017-04-28
+Fri
+--
+206,551
+--
+141,146,998
+$0  -  $0
+2017-04-29
+Sat
+--
+206,551
++1,339,337
+142,486,335
+$335  -  $5.4K
+2017-04-30
+Sun
+--
+206,551
++517,524
+143,003,859
+$129  -  $2.1K
+2017-05-01
+Mon
+--
+206,551
++495,298
+143,499,157
+$124  -  $2K
+2017-05-02
+Tue
+--
+206,551
++488,568
+143,987,725
+$122  -  $2K
+2017-05-03
+Wed
+--
+206,551 LIVE
+--
+143,987,725
+$0  -  $0
+Daily Averages
+--
++504,164
+$126  -  $2K
+Last 30 Days
+--
++15,124,920
+$3.8K  -  $60.5K
+https://socialblade.com/products/subscription
+
+------->>>>>>>
+Hello, visitor! Please consider adding SocialBlade.com to your adblock whitelist. Our ads support the development and upkeep of the site. Upgrade to a Premium Subscription to load the site without ads.
+Future Subscribers and View Predictions facedmuzzic (Next 5 years)
+Time Milestones
+Subscriber Milestones
+Viewer Milestones
+GOAL DATE
+•TIME UNTIL•
+SUBS PREDICTION
+VIEWS PREDICTION
+SHARE THIS GOAL
+2017-05-03
+-- Now --
+0
+143,987,725
+2017-06-02
+30 days
+0
+159,334,000
+2017-07-02
+60 days
+0
+174,679,000
+2017-08-02
+3 months
+0
+190,025,000
+2017-11-01
+6 months
+0
+236,061,000
+2018-01-31
+9 months
+0
+282,098,000
+2018-05-03
+1 year
+0
+328,134,000
+2018-08-02
+1yr 3mo
+0
+374,171,000
+2018-11-01
+1yr 6mo
+0
+420,207,000
+2019-02-01
+1yr 9mo
+0
+466,244,000
+2019-05-03
+2 years
+0
+512,280,000
+2019-08-02
+2yr 3mo
+0
+558,317,000
+2019-11-02
+2yr 6mo
+0
+604,353,000
+2020-02-01
+2yr 9mo
+0
+650,389,000
+2020-05-02
+3 years
+0
+696,426,000
+2020-08-02
+3yr 3mo
+0
+742,462,000
+2020-11-01
+3yr 6mo
+0
+788,499,000
+2021-01-31
+3yr 9mo
+0
+834,535,000
+2021-05-03
+4 years
+0
+880,572,000
+2021-08-02
+4yr 3mo
+0
+926,608,000
+2021-11-01
+4yr 6mo
+0
+972,645,000
+2022-01-31
+4yr 9mo
+0
+1,018,681,000
+2022-05-03
+5 years
+0
+1,064,718,000
+See Full Monthly Statistics
+Share on Facebook
+Tweet This
+Share On Google+
+g = new Dygraph(
+// containing div
+document.getElementById('FutureSubs'),
+// CSV or path to a CSV file.
+"Date,Future Subs\n" + "2017-06-02,0\n" + "2017-07-03,0\n" + "2017-08-02,0\n" + "2017-11-02,0\n" + "2018-02-01,0\n" + "2018-05-03,0\n" + "2018-08-02,0\n" + "2018-11-02,0\n" + "2019-02-01,0\n" + "2019-05-03,0\n" + "2019-08-03,0\n" + "2019-11-02,0\n" + "2020-02-01,0\n" + "2020-05-03,0\n" + "2020-08-02,0\n" + "2020-11-01,0\n" + "2021-02-01,0\n" + "2021-05-03,0\n" + "2021-08-02,0\n" + "2021-11-02,0\n" + "2022-02-01,0\n" + "2022-05-03,0\n", {
+title: 'Future Subscribers Per Milestone for facedmuzzic ',
+legend: 'always',
+ylabel: 'Future Subs',
+titleHeight: 20,
+labelsDivStyles: {
+'background': 'none',
+'margin-top': '-10px',
+'text-align': 'right',
+},
+strokeWidth: 1,
+colors: ["#dd2323",
+"#dd2323",
+"#dd2323",
+"#dd2323"],
+labelsKMB: true,
+maxNumberWidth: 10
+}
+);
+g = new Dygraph(
+// containing div
+document.getElementById('FutureViews'),
+// CSV or path to a CSV file.
+"Date,Future Views\n" + "2017-06-02,159333216.75\n" + "2017-07-03,174678708.5\n" + "2017-08-02,190024200.25\n" + "2017-11-02,236060675.5\n" + "2018-02-01,282097150.75\n" + "2018-05-03,328133626\n" + "2018-08-02,374170101.25\n" + "2018-11-02,420206576.5\n" + "2019-02-01,466243051.75\n" + "2019-05-03,512279527\n" + "2019-08-03,558316002.25\n" + "2019-11-02,604352477.5\n" + "2020-02-01,650388952.75\n" + "2020-05-03,696425428\n" + "2020-08-02,742461903.25\n" + "2020-11-01,788498378.5\n" + "2021-02-01,834534853.75\n" + "2021-05-03,880571329\n" + "2021-08-02,926607804.25\n" + "2021-11-02,972644279.5\n" + "2022-02-01,1018680754.75\n" + "2022-05-03,1064717230\n", {
+title: 'Future Views Per Milestone for facedmuzzic ',
+legend: 'always',
+ylabel: 'Future Views',
+titleHeight: 20,
+labelsDivStyles: {
+'background': 'none',
+'margin-top': '-10px',
+'text-align': 'right',
+},
+strokeWidth: 1,
+colors: ["#dd2323",
+"#dd2323",
+"#dd2323",
+"#dd2323"],
+labelsKMB: true,
+maxNumberWidth: 10
+}
+);
+https://socialblade.com/products/subscription

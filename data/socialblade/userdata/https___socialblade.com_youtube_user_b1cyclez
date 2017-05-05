@@ -1,0 +1,284 @@
+https://socialblade.com/youtube/user/b1cyclez
+Uploads49
+49
+Subscribers96,130
+96130
+Video Views5,057,851
+5057851
+CountryTH
+TH
+https://socialblade.com//socialblade.com/youtube/top/country/th
+Channel TypePeople
+people
+https://socialblade.com//socialblade.com/youtube/top/category/people
+User CreatedJun 10th, 2014
+Hello, visitor! Please consider adding SocialBlade.com to your adblock whitelist. Our ads support the development and upkeep of the site. Upgrade to a Premium Subscription to load the site without ads.
+YouTube Consulting
+YouTube Education
+YouTube Stats Summary / User Statistics for b1cyclez (Apr 20th, 2017 - May 3rd, 2017)
+DATE
+SUBSCRIBERS
+VIDEO VIEWS
+ESTIMATED EARNINGS
+2017-04-20
+Thu
++59
+96,084
++12,727
+9,591,799
+$3  -  $51
+2017-04-21
+Fri
++13
+96,097
++10,261
+9,602,060
+$3  -  $41
+2017-04-22
+Sat
+-3
+96,094
+-9,270,475
+331,585
+$-2.3K  -  $-37.1K
+2017-04-23
+Sun
++6
+96,100
++13,361
+344,946
+$3  -  $53
+2017-04-24
+Mon
++2
+96,102
+--
+344,946
+$0  -  $0
+2017-04-25
+Tue
+-2
+96,100
+--
+344,946
+$0  -  $0
+2017-04-26
+Wed
++2
+96,102
++4,015
+348,961
+$1  -  $16
+2017-04-27
+Thu
++8
+96,110
++3,931
+352,892
+$0.98  -  $16
+2017-04-28
+Fri
+-9
+96,101
++1,588
+354,480
+$0.40  -  $6
+2017-04-29
+Sat
+-1
+96,100
++3,208
+357,688
+$0.80  -  $13
+2017-04-30
+Sun
++12
+96,112
++4,698,120
+5,055,808
+$1.2K  -  $18.8K
+2017-05-01
+Mon
++19
+96,131
++2,043
+5,057,851
+$0.51  -  $8
+2017-05-02
+Tue
+-11
+96,120
+--
+5,057,851
+$0  -  $0
+2017-05-03
+Wed
++10
+96,130 LIVE
+--
+5,057,851
+$0  -  $0
+Daily Averages
++38
+-145,454
+$0  -  $0
+Last 30 Days
++1,120
+-4,363,620
+$0  -  $0
+https://socialblade.com/products/subscription
+
+------->>>>>>>
+Hello, visitor! Please consider adding SocialBlade.com to your adblock whitelist. Our ads support the development and upkeep of the site. Upgrade to a Premium Subscription to load the site without ads.
+Future Subscribers and View Predictions b1cyclez (Next 5 years)
+Time Milestones
+Subscriber Milestones
+Viewer Milestones
+GOAL DATE
+•TIME UNTIL•
+SUBS PREDICTION
+VIEWS PREDICTION
+SHARE THIS GOAL
+2017-05-03
+-- Now --
+96,130
+5,057,851
+2017-06-02
+30 days
+98,000
+631,000
+2017-07-02
+60 days
+99,000
+0
+2017-08-02
+3 months
+100,000
+0
+2017-11-01
+6 months
+103,000
+0
+2018-01-31
+9 months
+107,000
+0
+2018-05-03
+1 year
+110,000
+0
+2018-08-02
+1yr 3mo
+114,000
+0
+2018-11-01
+1yr 6mo
+117,000
+0
+2019-02-01
+1yr 9mo
+120,000
+0
+2019-05-03
+2 years
+124,000
+0
+2019-08-02
+2yr 3mo
+127,000
+0
+2019-11-02
+2yr 6mo
+131,000
+0
+2020-02-01
+2yr 9mo
+134,000
+0
+2020-05-02
+3 years
+138,000
+0
+2020-08-02
+3yr 3mo
+141,000
+0
+2020-11-01
+3yr 6mo
+144,000
+0
+2021-01-31
+3yr 9mo
+148,000
+0
+2021-05-03
+4 years
+151,000
+0
+2021-08-02
+4yr 3mo
+155,000
+0
+2021-11-01
+4yr 6mo
+158,000
+0
+2022-01-31
+4yr 9mo
+161,000
+0
+2022-05-03
+5 years
+165,000
+0
+See Full Monthly Statistics
+Share on Facebook
+Tweet This
+Share On Google+
+g = new Dygraph(
+// containing div
+document.getElementById('FutureSubs'),
+// CSV or path to a CSV file.
+"Date,Future Subs\n" + "2017-06-02,97266.33231875\n" + "2017-07-03,98402.6646375\n" + "2017-08-02,99538.99695625\n" + "2017-11-02,102947.9939125\n" + "2018-02-01,106356.99086875\n" + "2018-05-03,109765.987825\n" + "2018-08-02,113174.98478125\n" + "2018-11-02,116583.9817375\n" + "2019-02-01,119992.97869375\n" + "2019-05-03,123401.97565\n" + "2019-08-03,126810.97260625\n" + "2019-11-02,130219.9695625\n" + "2020-02-01,133628.96651875\n" + "2020-05-03,137037.963475\n" + "2020-08-02,140446.96043125\n" + "2020-11-01,143855.9573875\n" + "2021-02-01,147264.95434375\n" + "2021-05-03,150673.9513\n" + "2021-08-02,154082.94825625\n" + "2021-11-02,157491.9452125\n" + "2022-02-01,160900.94216875\n" + "2022-05-03,164309.939125\n", {
+title: 'Future Subscribers Per Milestone for b1cyclez ',
+legend: 'always',
+ylabel: 'Future Subs',
+titleHeight: 20,
+labelsDivStyles: {
+'background': 'none',
+'margin-top': '-10px',
+'text-align': 'right',
+},
+strokeWidth: 1,
+colors: ["#dd2323",
+"#dd2323",
+"#dd2323",
+"#dd2323"],
+labelsKMB: true,
+maxNumberWidth: 10
+}
+);
+g = new Dygraph(
+// containing div
+document.getElementById('FutureViews'),
+// CSV or path to a CSV file.
+"Date,Future Views\n" + "2017-06-02,630594.875\n" + "2017-07-03,0\n" + "2017-08-02,0\n" + "2017-11-02,0\n" + "2018-02-01,0\n" + "2018-05-03,0\n" + "2018-08-02,0\n" + "2018-11-02,0\n" + "2019-02-01,0\n" + "2019-05-03,0\n" + "2019-08-03,0\n" + "2019-11-02,0\n" + "2020-02-01,0\n" + "2020-05-03,0\n" + "2020-08-02,0\n" + "2020-11-01,0\n" + "2021-02-01,0\n" + "2021-05-03,0\n" + "2021-08-02,0\n" + "2021-11-02,0\n" + "2022-02-01,0\n" + "2022-05-03,0\n", {
+title: 'Future Views Per Milestone for b1cyclez ',
+legend: 'always',
+ylabel: 'Future Views',
+titleHeight: 20,
+labelsDivStyles: {
+'background': 'none',
+'margin-top': '-10px',
+'text-align': 'right',
+},
+strokeWidth: 1,
+colors: ["#dd2323",
+"#dd2323",
+"#dd2323",
+"#dd2323"],
+labelsKMB: true,
+maxNumberWidth: 10
+}
+);
+https://socialblade.com/products/subscription

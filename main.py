@@ -14,6 +14,7 @@ from Queue import Queue
 import threading
 from urllib import quote
 from util import post_process_for_socialblade
+
 reload(sys)
 sys.setdefaultencoding('utf8')
 
@@ -39,6 +40,7 @@ class DomainTask():
             line = line.strip()
             if line.endswith("-->"):
                 para_dict[current_para] = cur_para_info
+                cur_para_info = dict()
                 current_para = line[:-3]
             fields = line.split(':')
             if len(fields) < 2:
@@ -59,7 +61,6 @@ class DomainTask():
 
 
 def deep_first_processor(domain, entry_type='hub'):
-    pdb.set_trace()
     logging.info("*********proessing domain[%s]*********" % domain)
     doc = DomainTask(domain)
     tasks = task_dict[domain]
@@ -79,7 +80,7 @@ def deep_first_processor(domain, entry_type='hub'):
                 try:
                     logging.info('processing detail [%s], [%d] left' % (url, queue.qsize()))
                     de = doc.downloader.download(url)
-                    # pdb.set_trace()
+                    #pdb.set_trace()
                     corpus = doc.detail_extractor.extract_detail_page(de, url)
                     if not corpus.get("content"):
                         time.sleep(1)
@@ -90,6 +91,9 @@ def deep_first_processor(domain, entry_type='hub'):
                     file_name = get_name_form_url(url)
                     article_file = doc.file_path['dir'] + '/' + file_name
                     write_corpus_into_file(article_file, corpus)
+                    #pdb.set_trace()
+                    if domain == 'socialblade':
+                        extra_crawler_socialblade(doc, corpus["para_special"])
                     time.sleep(1)
                 except Exception as e:
                     logging.error(
@@ -97,6 +101,21 @@ def deep_first_processor(domain, entry_type='hub'):
 
         except Exception as e:
             logging.error("processing domain[%s], %s:[%s] failed for [%s]" % (domain, entry_type, task, e))
+
+
+def extra_crawler_socialblade(doc, level2_urls):
+    for level2_url in level2_urls:
+        #pdb.set_trace()
+        level2_page = doc.downloader.download(level2_url)
+
+        corpus = doc.detail_extractor.extract_detail_page(level2_page, level2_url,  content_xpath= './/div[@id="YouTubeUserTopInfoBlock"]/div[@class="YouTubeUserTopInfo"]|.//div[@style="width: 860px; float: left; font-size: 8pt;"]',para_xpath= "")
+        level3_url = level2_url + "/futureprojections"
+        level3_page = doc.downloader.download(level3_url)
+
+        corpus2 = doc.detail_extractor.extract_detail_page(level3_page, level3_url, content_xpath='//div[@style="width: 900px; float: left;"]', para_xpath= "")
+        corpus["content"] += "\n------->>>>>>>\n" + corpus2["content"]
+        article_file = doc.file_path['dir'] + '/userdata/' + get_name_form_url(level2_url)
+        write_corpus_into_file(article_file, corpus)
 
 
 def main(run_once=False):

@@ -1,0 +1,284 @@
+https://socialblade.com/youtube/user/filme
+Uploads1,022
+1022
+Subscribers0
+0
+Video Views723,539,249
+723539249
+CountryDE
+DE
+https://socialblade.com//socialblade.com/youtube/top/country/de
+Channel TypeEntertainment
+entertainment
+https://socialblade.com//socialblade.com/youtube/top/category/entertainment
+User CreatedAug 18th, 2014
+Hello, visitor! Please consider adding SocialBlade.com to your adblock whitelist. Our ads support the development and upkeep of the site. Upgrade to a Premium Subscription to load the site without ads.
+YouTube Consulting
+YouTube Education
+YouTube Stats Summary / User Statistics for filme (Apr 20th, 2017 - May 3rd, 2017)
+DATE
+SUBSCRIBERS
+VIDEO VIEWS
+ESTIMATED EARNINGS
+2017-04-20
+Thu
+--
+0
++3,054,244
+700,895,802
+$764  -  $12.2K
+2017-04-21
+Fri
+--
+0
++2,225,917
+703,121,719
+$556  -  $8.9K
+2017-04-22
+Sat
+--
+0
++1,512,119
+704,633,838
+$378  -  $6K
+2017-04-23
+Sun
+--
+0
++1,283,166
+705,917,004
+$321  -  $5.1K
+2017-04-24
+Mon
+--
+0
++1,413,739
+707,330,743
+$353  -  $5.7K
+2017-04-25
+Tue
+--
+0
+--
+707,330,743
+$0  -  $0
+2017-04-26
+Wed
+--
+0
++3,029,528
+710,360,271
+$757  -  $12.1K
+2017-04-27
+Thu
+--
+0
++4,787,256
+715,147,527
+$1.2K  -  $19.1K
+2017-04-28
+Fri
+--
+0
++2,214,659
+717,362,186
+$554  -  $8.9K
+2017-04-29
+Sat
+--
+0
++1,310,773
+718,672,959
+$328  -  $5.2K
+2017-04-30
+Sun
+--
+0
++2,146,059
+720,819,018
+$537  -  $8.6K
+2017-05-01
+Mon
+--
+0
++1,375,253
+722,194,271
+$344  -  $5.5K
+2017-05-02
+Tue
+--
+0
++1,344,978
+723,539,249
+$336  -  $5.4K
+2017-05-03
+Wed
+--
+0 LIVE
+--
+723,539,249
+$0  -  $0
+Daily Averages
+--
++2,298,720
+$575  -  $9.2K
+Last 30 Days
+--
++68,961,600
+$17.2K  -  $275.8K
+https://socialblade.com/products/subscription
+
+------->>>>>>>
+Hello, visitor! Please consider adding SocialBlade.com to your adblock whitelist. Our ads support the development and upkeep of the site. Upgrade to a Premium Subscription to load the site without ads.
+Future Subscribers and View Predictions filme (Next 5 years)
+Time Milestones
+Subscriber Milestones
+Viewer Milestones
+GOAL DATE
+•TIME UNTIL•
+SUBS PREDICTION
+VIEWS PREDICTION
+SHARE THIS GOAL
+2017-05-03
+-- Now --
+0
+723,539,249
+2017-06-02
+30 days
+0
+793,507,000
+2017-07-02
+60 days
+0
+863,474,000
+2017-08-02
+3 months
+0
+933,442,000
+2017-11-01
+6 months
+0
+1,143,343,000
+2018-01-31
+9 months
+0
+1,353,245,000
+2018-05-03
+1 year
+0
+1,563,147,000
+2018-08-02
+1yr 3mo
+0
+1,773,049,000
+2018-11-01
+1yr 6mo
+0
+1,982,951,000
+2019-02-01
+1yr 9mo
+0
+2,192,853,000
+2019-05-03
+2 years
+0
+2,402,755,000
+2019-08-02
+2yr 3mo
+0
+2,612,657,000
+2019-11-02
+2yr 6mo
+0
+2,822,558,000
+2020-02-01
+2yr 9mo
+0
+3,032,460,000
+2020-05-02
+3 years
+0
+3,242,362,000
+2020-08-02
+3yr 3mo
+0
+3,452,264,000
+2020-11-01
+3yr 6mo
+0
+3,662,166,000
+2021-01-31
+3yr 9mo
+0
+3,872,068,000
+2021-05-03
+4 years
+0
+4,081,970,000
+2021-08-02
+4yr 3mo
+0
+4,291,872,000
+2021-11-01
+4yr 6mo
+0
+4,501,773,000
+2022-01-31
+4yr 9mo
+0
+4,711,675,000
+2022-05-03
+5 years
+0
+4,921,577,000
+See Full Monthly Statistics
+Share on Facebook
+Tweet This
+Share On Google+
+g = new Dygraph(
+// containing div
+document.getElementById('FutureSubs'),
+// CSV or path to a CSV file.
+"Date,Future Subs\n" + "2017-06-02,0\n" + "2017-07-03,0\n" + "2017-08-02,0\n" + "2017-11-01,0\n" + "2018-02-01,0\n" + "2018-05-03,0\n" + "2018-08-02,0\n" + "2018-11-02,0\n" + "2019-02-01,0\n" + "2019-05-03,0\n" + "2019-08-03,0\n" + "2019-11-02,0\n" + "2020-02-01,0\n" + "2020-05-03,0\n" + "2020-08-02,0\n" + "2020-11-01,0\n" + "2021-01-31,0\n" + "2021-05-03,0\n" + "2021-08-02,0\n" + "2021-11-01,0\n" + "2022-02-01,0\n" + "2022-05-03,0\n", {
+title: 'Future Subscribers Per Milestone for filme ',
+legend: 'always',
+ylabel: 'Future Subs',
+titleHeight: 20,
+labelsDivStyles: {
+'background': 'none',
+'margin-top': '-10px',
+'text-align': 'right',
+},
+strokeWidth: 1,
+colors: ["#dd2323",
+"#dd2323",
+"#dd2323",
+"#dd2323"],
+labelsKMB: true,
+maxNumberWidth: 10
+}
+);
+g = new Dygraph(
+// containing div
+document.getElementById('FutureViews'),
+// CSV or path to a CSV file.
+"Date,Future Views\n" + "2017-06-02,793506539\n" + "2017-07-03,863473829\n" + "2017-08-02,933441119\n" + "2017-11-01,1143342989\n" + "2018-02-01,1353244859\n" + "2018-05-03,1563146729\n" + "2018-08-02,1773048599\n" + "2018-11-02,1982950469\n" + "2019-02-01,2192852339\n" + "2019-05-03,2402754209\n" + "2019-08-03,2612656079\n" + "2019-11-02,2822557949\n" + "2020-02-01,3032459819\n" + "2020-05-03,3242361689\n" + "2020-08-02,3452263559\n" + "2020-11-01,3662165429\n" + "2021-01-31,3872067299\n" + "2021-05-03,4081969169\n" + "2021-08-02,4291871039\n" + "2021-11-01,4501772909\n" + "2022-02-01,4711674779\n" + "2022-05-03,4921576649\n", {
+title: 'Future Views Per Milestone for filme ',
+legend: 'always',
+ylabel: 'Future Views',
+titleHeight: 20,
+labelsDivStyles: {
+'background': 'none',
+'margin-top': '-10px',
+'text-align': 'right',
+},
+strokeWidth: 1,
+colors: ["#dd2323",
+"#dd2323",
+"#dd2323",
+"#dd2323"],
+labelsKMB: true,
+maxNumberWidth: 10
+}
+);
+https://socialblade.com/products/subscription

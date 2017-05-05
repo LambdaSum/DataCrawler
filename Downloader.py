@@ -5,6 +5,7 @@ import urllib
 import StringIO
 import logging
 import certifi
+from tornado_fetcher import Fetcher
 
 reload(sys)
 sys.setdefaultencoding('utf8')
@@ -35,6 +36,7 @@ class Downloader:
         # cookie = "Cookie:%s" % (self.para_dict['Cookie'])
         # print header_list
         # import pdb;pdb.set_trace()
+        self.phantomjs_downloader = Fetcher()
 
         self.curl_handel.setopt(pycurl.HTTPHEADER, [contenttype,requestwith])
         self.curl_handel.setopt(pycurl.USERAGENT,
@@ -43,8 +45,11 @@ class Downloader:
             for (pk, pv) in self.post_para.items():
                 self.post_fields.setdefault(pk, pv)
 
-    def download(self, url):
+    def download(self, url, use_phantomjs=False):
         print '*******************\n'+url
+        if use_phantomjs:
+            content = self.phantomjs_downloader.phantomjs_fetch(url)
+            return content
         output = StringIO.StringIO()
         output.truncate(0)
         output.seek(0)

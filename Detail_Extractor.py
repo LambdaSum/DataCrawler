@@ -18,7 +18,7 @@ class DetailExtractor:
     def __init__(self, para_info):
         self.para_info = para_info
 
-    def extract_detail_page(self, detail_page, url):
+    def extract_detail_page(self, detail_page, url,**para_dict):
         detail_page = detail_page.replace('<BR>', '\n').replace('<br>', '\n')
         try:
             html_tree = etree.HTML(detail_page.decode('utf-8'))
@@ -35,7 +35,9 @@ class DetailExtractor:
         title_node = html_tree.xpath(self.para_info.get("title_xpath")) if self.para_info.get("title_xpath") else None
         title = title_node.text if title_node else None
         corpus['title'] = title
-        contents = html_tree.xpath(self.para_info.get("content_xpath")) if self.para_info.get("content_xpath") else []
+        corpus['para_special'] = []
+        content_xpath = para_dict.get("content_xpath") if "content_xpath" in para_dict else self.para_info.get("content_xpath")
+        contents = html_tree.xpath(content_xpath) if content_xpath else []
         article = ''
         if self.para_info.get("next_page"):
             next_page_node = html_tree.xpath(self.para_info['next_page'])
@@ -45,7 +47,11 @@ class DetailExtractor:
                     next_page = self.para_info['base_url'] + next_page
                 corpus['next_page'] = next_page
         for content in contents:
-            for node in content.xpath(self.para_info.get("para_xpath")):
+            #pdb.set_trace()
+            para_xpath = self.para_info.get("para_xpath") if "para_xpath" not in para_dict else para_dict.get("para_xpath")
+            nodes = content.xpath(para_xpath) if para_xpath else []
+            nodes = [content] if not nodes else nodes
+            for node in nodes:
                 para = node.xpath('string(.)').strip()
                 chars = para.split('\n')
                 new_para = ""
@@ -59,12 +65,15 @@ class DetailExtractor:
                     "para_special") else []
                 if len(para_special) and not para_special[0].startswith("http"):
                     para_special = [self.para_info['base_url'] + para_special[0]]
+                    corpus['para_special'].extend(para_special)
                 para += "\n" + para_special[0] if len(para_special) else ""
                 article += para + '\n' if para else ""
+        #pdb.set_trace()
         if not contents:
             article = self.get_content_by_regex(detail_page)
         corpus['content'] = article
         return corpus
+
 
     def get_content_by_regex(self, input):
         if self.para_info.get('en_regex'):
