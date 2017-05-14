@@ -206,7 +206,7 @@ def post_process_for_socialblade(file_path):
                 splitor = '\t'
                 if i % (cols) == 0:
                     splitor = '\n'
-                article += lines[i].strip()+splitor
+                article += lines[i].strip() + splitor
 
         with open(file_path + '/' + file + '.csv', 'w') as fp:
             fp.write(article)
@@ -260,7 +260,7 @@ def init_log():
 
 
 if __name__ == '__main__':
-    with open("text",'r')as fp:
+    with open("text", 'r')as fp:
         lines = fp.readlines()
         myset = set()
         list = ""
@@ -269,29 +269,7 @@ if __name__ == '__main__':
             myset.add(line.strip())
         for web in myset:
             if get_name_form_url(web) not in files:
-                list+=web+'\n'
+                list += web + '\n'
         print len(list)
-        with open("ramain","w") as wfp:
+        with open("ramain", "w") as wfp:
             wfp.write(list)
-
-
-        import pdb;pdb.set_trace()
-    # post_process_for_socialblade("./data/socialblade/")
-    # words = list()
-    # with open('target2', 'r') as fp:
-    #     words = json.loads(fp.read())
-    # print len(words)
-    # with open('target1', 'r') as fp:
-    #     words.extend(json.loads(fp.read()))
-    # print len(words)
-    # content = ""
-    #
-    # for i, word in enumerate(words):
-    #     if i < 800000:
-    #         continue
-    #     if i % 100000 == 0:
-    #         print i
-    #         with open('task2' + str(i), 'a') as wfp:
-    #             wfp.write(content)
-    #         content = ""
-    #     content += 'http://www.jukuu.com/jcsearch.php?q=%s' % quote(word.encode("utf")) + '\n'

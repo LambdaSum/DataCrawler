@@ -80,7 +80,7 @@ def deep_first_processor(domain, entry_type='hub'):
                 try:
                     logging.info('processing detail [%s], [%d] left' % (url, queue.qsize()))
                     de = doc.downloader.download(url)
-                    #pdb.set_trace()
+                    # pdb.set_trace()
                     corpus = doc.detail_extractor.extract_detail_page(de, url)
                     if not corpus.get("content"):
                         time.sleep(1)
@@ -91,7 +91,7 @@ def deep_first_processor(domain, entry_type='hub'):
                     file_name = get_name_form_url(url)
                     article_file = doc.file_path['dir'] + '/' + file_name
                     write_corpus_into_file(article_file, corpus)
-                    #pdb.set_trace()
+                    pdb.set_trace()
                     if domain == 'socialblade':
                         extra_crawler_socialblade(doc, corpus["para_special"])
                     time.sleep(1)
@@ -104,18 +104,38 @@ def deep_first_processor(domain, entry_type='hub'):
 
 
 def extra_crawler_socialblade(doc, level2_urls):
+    base_url = 'https://socialblade.com'
     for level2_url in level2_urls:
-        #pdb.set_trace()
+        # pdb.set_trace()
         level2_page = doc.downloader.download(level2_url)
+        main_corpus = doc.detail_extractor.extract_detail_page(level2_page, level2_url,
+                                                               xpath_dict={
+                                                                   'month_stats': './/div[@id="YouTubeUserMenu"]/a[3]/@href',
+                                                                   'future_pro': './/div[@id="YouTubeUserMenu"]/a[2]/@href',
+                                                                   "user_info": './/div[@id="YouTubeUserTopInfoBlock"]/div[@class="YouTubeUserTopInfo"]',
+                                                                   '30days_view_info': './/span[@id="afd-header-views-30d"]|.//span[@id="afd-header-views-30d-perc"]',
+                                                                   '30days_view_extrainfo': './/span[@id="afd-header-views-30d-perc"]/span/i/@class',
+                                                                   '30days_sub_info': './/span[@id = "afd-header-subs-30d"]|.//span[@id="afd-header-subs-30d-perc"]',
+                                                                   '30days_sub_extrainfo': './/span[@id="afd-header-subs-30d-perc"]/span/i/@class'})
+        article = ''
+        for key in ['user_info', '30days_view_info', '30days_view_extrainfo', '30days_sub_info',
+                    '30days_sub_extrainfo']:
+            article += ">>>>>>>>>>->%s\n%s\n" % (key, main_corpus['xpath_content'][key])
+        month_stats_url = base_url+main_corpus['xpath_content']["month_stats"]
+        month_stats_page = doc.downloader.download(month_stats_url)
+        month_stats_corpus = doc.detail_extractor.extract_detail_page(month_stats_page, month_stats_url, xpath_dict={
+            'monthly_table': './/div[@style="width: 880px; float: left;"]/div[position()>4][position()<31]'})
+        article += ">>>>>>>>>>->%s\n%s\n" % ('monthly_table', month_stats_corpus['xpath_content']['monthly_table'])
+        future_pro_url = base_url+main_corpus['xpath_content']["future_pro"]
+        future_pro_page = doc.downloader.download(future_pro_url)
 
-        corpus = doc.detail_extractor.extract_detail_page(level2_page, level2_url,  content_xpath= './/div[@id="YouTubeUserTopInfoBlock"]/div[@class="YouTubeUserTopInfo"]|.//div[@style="width: 860px; float: left; font-size: 8pt;"]',para_xpath= "")
-        level3_url = level2_url + "/futureprojections"
-        level3_page = doc.downloader.download(level3_url)
+        future_pro_corpus = doc.detail_extractor.extract_detail_page(future_pro_page, future_pro_url, xpath_dict={
+            'future_pro': './/div[@style="width: 900px; float: left;"]/div[@class="TableMonthlyStats"]'})
+        article += ">>>>>>>>>>->%s\n%s\n" % ('future_pro', future_pro_corpus['xpath_content']['future_pro'])
 
-        corpus2 = doc.detail_extractor.extract_detail_page(level3_page, level3_url, content_xpath='//div[@style="width: 900px; float: left;"]', para_xpath= "")
-        corpus["content"] += "\n------->>>>>>>\n" + corpus2["content"]
+        main_corpus["content"] = article
         article_file = doc.file_path['dir'] + '/userdata/' + get_name_form_url(level2_url)
-        write_corpus_into_file(article_file, corpus)
+        write_corpus_into_file(article_file, main_corpus)
 
 
 def main(run_once=False):
