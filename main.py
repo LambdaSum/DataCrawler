@@ -5,7 +5,7 @@ import pdb
 from Downloader import Downloader
 from Hub_Extractor import HubExtractor
 from Detail_Extractor import DetailExtractor
-from util import init_log, write_corpus_into_file, read_history_pages, write_history_pages, get_name_form_url
+from util import init_log, write_corpus_into_file, get_name_form_url
 from task import task_dict
 import logging
 import time
@@ -75,6 +75,7 @@ def deep_first_processor(domain, entry_type='hub'):
             for url in urls:
                 queue.put(url)
             logging.info('processing domain[%s] hub [%s], [%d] left' % (domain, task, len(tasks) - i))
+            pdb.set_trace()
             while not queue.empty():
                 url = queue.get()
                 try:
@@ -91,51 +92,54 @@ def deep_first_processor(domain, entry_type='hub'):
                     file_name = get_name_form_url(url)
                     article_file = doc.file_path['dir'] + '/' + file_name
                     write_corpus_into_file(article_file, corpus)
-                    pdb.set_trace()
+                    # pdb.set_trace()
                     if domain == 'socialblade':
                         extra_crawler_socialblade(doc, corpus["para_special"])
                     time.sleep(1)
                 except Exception as e:
                     logging.error(
                         "processing domain[%s], hub[%s], detail:[%s] failed for [%s]" % (domain, task, url, e))
-
+                    pdb.set_trace()
         except Exception as e:
             logging.error("processing domain[%s], %s:[%s] failed for [%s]" % (domain, entry_type, task, e))
 
 
 def extra_crawler_socialblade(doc, level2_urls):
     base_url = 'https://socialblade.com'
-    for level2_url in level2_urls:
-        # pdb.set_trace()
-        level2_page = doc.downloader.download(level2_url)
-        main_corpus = doc.detail_extractor.extract_detail_page(level2_page, level2_url,
-                                                               xpath_dict={
-                                                                   'month_stats': './/div[@id="YouTubeUserMenu"]/a[3]/@href',
-                                                                   'future_pro': './/div[@id="YouTubeUserMenu"]/a[2]/@href',
-                                                                   "user_info": './/div[@id="YouTubeUserTopInfoBlock"]/div[@class="YouTubeUserTopInfo"]',
-                                                                   '30days_view_info': './/span[@id="afd-header-views-30d"]|.//span[@id="afd-header-views-30d-perc"]',
-                                                                   '30days_view_extrainfo': './/span[@id="afd-header-views-30d-perc"]/span/i/@class',
-                                                                   '30days_sub_info': './/span[@id = "afd-header-subs-30d"]|.//span[@id="afd-header-subs-30d-perc"]',
-                                                                   '30days_sub_extrainfo': './/span[@id="afd-header-subs-30d-perc"]/span/i/@class'})
-        article = ''
-        for key in ['user_info', '30days_view_info', '30days_view_extrainfo', '30days_sub_info',
-                    '30days_sub_extrainfo']:
-            article += ">>>>>>>>>>->%s\n%s\n" % (key, main_corpus['xpath_content'][key])
-        month_stats_url = base_url+main_corpus['xpath_content']["month_stats"]
-        month_stats_page = doc.downloader.download(month_stats_url)
-        month_stats_corpus = doc.detail_extractor.extract_detail_page(month_stats_page, month_stats_url, xpath_dict={
-            'monthly_table': './/div[@style="width: 880px; float: left;"]/div[position()>4][position()<31]'})
-        article += ">>>>>>>>>>->%s\n%s\n" % ('monthly_table', month_stats_corpus['xpath_content']['monthly_table'])
-        future_pro_url = base_url+main_corpus['xpath_content']["future_pro"]
-        future_pro_page = doc.downloader.download(future_pro_url)
+    for i, level2_url in enumerate(level2_urls):
+        logging.info('processing leve2_url[%s] , [%d] left' % (level2_url, len(level2_urls) - i))
+        try:
+            level2_page = doc.downloader.download(level2_url)
+            main_corpus = doc.detail_extractor.extract_detail_page(level2_page, level2_url,
+                                                                   xpath_dict={
+                                                                       'month_stats': './/div[@id="YouTubeUserMenu"]/a[3]/@href',
+                                                                       'future_pro': './/div[@id="YouTubeUserMenu"]/a[2]/@href',
+                                                                       "user_info": './/div[@id="YouTubeUserTopInfoBlock"]/div[@class="YouTubeUserTopInfo"]',
+                                                                       '30days_view_info': './/span[@id="afd-header-views-30d"]|.//span[@id="afd-header-views-30d-perc"]',
+                                                                       '30days_view_extrainfo': './/span[@id="afd-header-views-30d-perc"]/span/i/@class',
+                                                                       '30days_sub_info': './/span[@id = "afd-header-subs-30d"]|.//span[@id="afd-header-subs-30d-perc"]',
+                                                                       '30days_sub_extrainfo': './/span[@id="afd-header-subs-30d-perc"]/span/i/@class'})
+            article = ''
+            for key in ['user_info', '30days_view_info', '30days_view_extrainfo', '30days_sub_info',
+                        '30days_sub_extrainfo']:
+                article += ">>>>>>>>>>->%s\n%s\n" % (key, main_corpus['xpath_content'][key])
+            month_stats_url = base_url + main_corpus['xpath_content']["month_stats"]
+            month_stats_page = doc.downloader.download(month_stats_url)
+            month_stats_corpus = doc.detail_extractor.extract_detail_page(month_stats_page, month_stats_url,
+                                                                          xpath_dict={
+                                                                              'monthly_table': './/div[@style="width: 880px; float: left;"]/div[position()>4][position()<31]'})
+            article += ">>>>>>>>>>->%s\n%s\n" % ('monthly_table', month_stats_corpus['xpath_content']['monthly_table'])
+            future_pro_url = base_url + main_corpus['xpath_content']["future_pro"]
+            future_pro_page = doc.downloader.download(future_pro_url)
 
-        future_pro_corpus = doc.detail_extractor.extract_detail_page(future_pro_page, future_pro_url, xpath_dict={
-            'future_pro': './/div[@style="width: 900px; float: left;"]/div[@class="TableMonthlyStats"]'})
-        article += ">>>>>>>>>>->%s\n%s\n" % ('future_pro', future_pro_corpus['xpath_content']['future_pro'])
-
-        main_corpus["content"] = article
-        article_file = doc.file_path['dir'] + '/userdata/' + get_name_form_url(level2_url)
-        write_corpus_into_file(article_file, main_corpus)
+            future_pro_corpus = doc.detail_extractor.extract_detail_page(future_pro_page, future_pro_url, xpath_dict={
+                'future_pro': './/div[@style="width: 900px; float: left;"]/div[@class="TableMonthlyStats"]'})
+            article += ">>>>>>>>>>->%s\n%s\n" % ('future_pro', future_pro_corpus['xpath_content']['future_pro'])
+            main_corpus["content"] = article
+            article_file = doc.file_path['dir'] + '/userdata/' + get_name_form_url(level2_url)
+            write_corpus_into_file(article_file, main_corpus)
+        except Exception as e:
+            logging.error("processing level2url[%s] failed for [%s]" % (level2_url, e))
 
 
 def main(run_once=False):
@@ -151,10 +155,21 @@ def main(run_once=False):
             worker.join()
 
 
+def test(domain):
+    doc = DomainTask(domain)
+    url = 'https://www.youtube.com/watch?v=3cJvnYx3jRA'
+    content = doc.downloader.download(url=url, use_phantomjs=True)
+    pdb.set_trace()
+    corpus = doc.detail_extractor.extract_detail_page(content, url,
+                                                      xpath_dict={'watch': './/div[@id="watch7-views-info"]'})
+    pdb.set_trace()
+
+
 if __name__ == '__main__':
+    # test('socialblade')
     init_log()
     deep_first_processor('socialblade', 'detail')
-    post_process_for_socialblade("./data/socialblade/")
+    # post_process_for_socialblade("./data/socialblade/")
     # if len(sys.argv)<2:
     #     main(run_once=True)
     # else:

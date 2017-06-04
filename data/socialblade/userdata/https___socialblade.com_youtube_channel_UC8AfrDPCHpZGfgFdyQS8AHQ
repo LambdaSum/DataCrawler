@@ -1,0 +1,344 @@
+https://socialblade.com/youtube/channel/UC8AfrDPCHpZGfgFdyQS8AHQ
+>>>>>>>>>>->user_info
+Uploads39
+39
+Subscribers34,393
+34393
+Video Views18,837,176
+18837176
+Country
+https://socialblade.com//socialblade.com/youtube/top/country/
+Channel TypePeople
+people
+https://socialblade.com//socialblade.com/youtube/top/category/people
+User CreatedFeb 18th, 2017
+
+>>>>>>>>>>->30days_view_info
+59,307,300
+--
+
+>>>>>>>>>>->30days_view_extrainfo
+--empty--
+>>>>>>>>>>->30days_sub_info
+29,930
+--
+
+>>>>>>>>>>->30days_sub_extrainfo
+--empty--
+>>>>>>>>>>->monthly_table
+2017-05-26
+Fri
++4,457
+4,457
++1,328,903
+1,328,903
+$332  -  $5.3K
+2017-05-27
+Sat
++1,435
+5,892
++594,089
+1,922,992
+$149  -  $2.4K
+2017-05-28
+Sun
++4,082
+9,974
++775,005
+2,697,997
+$194  -  $3.1K
+2017-05-29
+Mon
++4,145
+14,119
++1,636,322
+4,334,319
+$409  -  $6.5K
+2017-05-30
+Tue
++12,537
+26,656
++2,858,858
+7,193,177
+$715  -  $11.4K
+2017-05-31
+Wed
++3,889
+30,545
++4,328,131
+11,521,308
+$1.1K  -  $17.3K
+2017-06-01
+Thu
++3,955
+34,500
++3,287,136
+14,808,444
+$822  -  $13.1K
+2017-06-02
+Fri
+-113
+34,387
++2,335,755
+17,144,199
+$584  -  $9.3K
+2017-06-03
+Sat
++6
+34,393
++1,692,977
+18,837,176
+$423  -  $6.8K
+https://socialblade.com/youtube/channel/UC8AfrDPCHpZGfgFdyQS8AHQ/realtime
+Daily Averages
++998
++1,976,910
+$132  -  $2.1K
+https://twitter.com/intent/tweet?text=On @YouTube Luxury+Daily gets 998 subs/day and 2M views/day ($132 - $2.1K per day) - http://socialblade.com/youtube/channel/UC8AfrDPCHpZGfgFdyQS8AHQ via @SocialBlade
+Last 30 Days
++29,930
++59,307,300
+$4K  -  $63.3K
+https://twitter.com/intent/tweet?text=On @YouTube Luxury+Daily gets 29.9K subs/month and 59.3M views/month($4K - $63.3K per month) - http://socialblade.com/youtube/channel/UC8AfrDPCHpZGfgFdyQS8AHQ via @SocialBlade
+Yearly Projections
++359.2K
++711.7M
+$47.4K  -  $759.1K
+https://twitter.com/intent/tweet?text=On @YouTube Luxury+Daily gets 359.2K subs/year and 711.7M views/year ($47.4K - $759.1K per year) - http://socialblade.com/youtube/channel/UC8AfrDPCHpZGfgFdyQS8AHQ via @SocialBlade
+YouTube Channel
+Similar Channels
+See Future Projections
+Apply for Partnership
+https://youtube.com/channel/UC8AfrDPCHpZGfgFdyQS8AHQ
+YouTube Statistical History for Luxury Daily
+g = new Dygraph(
+// containing div
+document.getElementById('DailySubscribers'),
+// CSV or path to a CSV file.
+"Date,Daily Subs\n" + "2017-05-27,4082\n" + "2017-05-28,4145\n" + "2017-05-29,12537\n" + "2017-05-30,3889\n" + "2017-05-31,3955\n" + "2017-06-01,-113\n" + "2017-06-02,6\n", {
+title: 'Daily Subs Gained for Luxury Daily ',
+legend: 'always',
+ylabel: 'Daily Subs',
+titleHeight: 20,
+labelsDivStyles: {
+'background': 'none',
+'margin-top': '-10px',
+'text-align': 'right',
+},
+strokeWidth: 1,
+colors: ["#dd2323",
+"#dd2323",
+"#dd2323",
+"#dd2323"],
+labelsKMB: true,
+maxNumberWidth: 10
+}
+);
+g = new Dygraph(
+// containing div
+document.getElementById('TotalSubscribers'),
+// CSV or path to a CSV file.
+"Date,Total Subs\n" + "2017-05-27,5892\n" + "2017-05-28,9974\n" + "2017-05-29,14119\n" + "2017-05-30,26656\n" + "2017-05-31,30545\n" + "2017-06-01,34500\n" + "2017-06-02,34387\n" + "2017-06-03,34393\n", {
+title: 'Total Subscribers Gained for Luxury Daily ',
+legend: 'always',
+ylabel: 'Total Subs',
+titleHeight: 20,
+labelsDivStyles: {
+'background': 'none',
+'margin-top': '-10px',
+'text-align': 'right',
+},
+strokeWidth: 1,
+colors: ["#dd2323",
+"#dd2323",
+"#dd2323",
+"#dd2323"],
+labelsKMB: true,
+maxNumberWidth: 10
+}
+);
+g = new Dygraph(
+// containing div
+document.getElementById('DailyVideoViews'),
+// CSV or path to a CSV file.
+"Date,Daily Views\n" + "2017-05-27,775005\n" + "2017-05-28,1636322\n" + "2017-05-29,2858858\n" + "2017-05-30,4328131\n" + "2017-05-31,3287136\n" + "2017-06-01,2335755\n" + "2017-06-02,1692977\n", {
+title: 'Daily Video Views for Luxury Daily ',
+legend: 'always',
+ylabel: 'Daily Views',
+titleHeight: 20,
+labelsDivStyles: {
+'background': 'none',
+'margin-top': '-10px',
+'text-align': 'right',
+},
+strokeWidth: 1,
+colors: ["#dd2323",
+"#dd2323",
+"#dd2323",
+"#dd2323"],
+labelsKMB: true,
+maxNumberWidth: 10
+}
+);
+g = new Dygraph(
+// containing div
+document.getElementById('TotalVideoViews'),
+// CSV or path to a CSV file.
+"Date,Total Views\n" + "2017-05-27,1922992\n" + "2017-05-28,2697997\n" + "2017-05-29,4334319\n" + "2017-05-30,7193177\n" + "2017-05-31,11521308\n" + "2017-06-01,14808444\n" + "2017-06-02,17144199\n" + "2017-06-03,18837176\n", {
+title: 'Total Video Views for Luxury Daily ',
+legend: 'always',
+ylabel: 'Total Views',
+titleHeight: 20,
+labelsDivStyles: {
+'background': 'none',
+'margin-top': '-10px',
+'text-align': 'right',
+},
+strokeWidth: 1,
+colors: ["#dd2323",
+"#dd2323",
+"#dd2323",
+"#dd2323"],
+labelsKMB: true,
+maxNumberWidth: 10
+}
+);
+
+>>>>>>>>>>->future_pro
+2017-06-03
+-- Now --
+34,393
+18,837,176
+2017-07-03
+30 days
+149,000
+79,010,000
+
+https://twitter.com/intent/tweet?text=30 days until Luxury+Daily reaches 148.3K subs and 79.0M views on @YouTube (https://socialblade.com/youtube/channel/UC8AfrDPCHpZGfgFdyQS8AHQ/futureprojections) via @SocialBlade
+2017-08-02
+60 days
+263,000
+139,182,000
+
+https://twitter.com/intent/tweet?text=60 days until Luxury+Daily reaches 262.1K subs and 139.2M views on @YouTube (https://socialblade.com/youtube/channel/UC8AfrDPCHpZGfgFdyQS8AHQ/futureprojections) via @SocialBlade
+2017-09-02
+3 months
+377,000
+199,354,000
+
+https://twitter.com/intent/tweet?text=3 months until Luxury+Daily reaches 376.0K subs and 199.4M views on @YouTube (https://socialblade.com/youtube/channel/UC8AfrDPCHpZGfgFdyQS8AHQ/futureprojections) via @SocialBlade
+2017-12-02
+6 months
+718,000
+379,871,000
+
+https://twitter.com/intent/tweet?text=6 months until Luxury+Daily reaches 717.6K subs and 379.9M views on @YouTube (https://socialblade.com/youtube/channel/UC8AfrDPCHpZGfgFdyQS8AHQ/futureprojections) via @SocialBlade
+2018-03-03
+9 months
+1,060,000
+560,387,000
+
+https://twitter.com/intent/tweet?text=9 months until Luxury+Daily reaches 1.1M subs and 560.4M views on @YouTube (https://socialblade.com/youtube/channel/UC8AfrDPCHpZGfgFdyQS8AHQ/futureprojections) via @SocialBlade
+2018-06-03
+1 year
+1,401,000
+740,904,000
+
+https://twitter.com/intent/tweet?text=1 year until Luxury+Daily reaches 1.4M subs and 740.9M views on @YouTube (https://socialblade.com/youtube/channel/UC8AfrDPCHpZGfgFdyQS8AHQ/futureprojections) via @SocialBlade
+2018-09-02
+1yr 3mo
+1,743,000
+921,421,000
+
+https://twitter.com/intent/tweet?text=1 year and 3 months until Luxury+Daily reaches 1.7M subs and 921.4M views on @YouTube (https://socialblade.com/youtube/channel/UC8AfrDPCHpZGfgFdyQS8AHQ/futureprojections) via @SocialBlade
+2018-12-02
+1yr 6mo
+2,085,000
+1,101,937,000
+
+https://twitter.com/intent/tweet?text=1 year and 6 months until Luxury+Daily reaches 2.1M subs and 110.2B views on @YouTube (https://socialblade.com/youtube/channel/UC8AfrDPCHpZGfgFdyQS8AHQ/futureprojections) via @SocialBlade
+2019-03-04
+1yr 9mo
+2,426,000
+1,282,454,000
+
+https://twitter.com/intent/tweet?text=1 year and 9 months until Luxury+Daily reaches 2.4M subs and 128.2B views on @YouTube (https://socialblade.com/youtube/channel/UC8AfrDPCHpZGfgFdyQS8AHQ/futureprojections) via @SocialBlade
+2019-06-03
+2 years
+2,768,000
+1,462,970,000
+
+https://twitter.com/intent/tweet?text=2 years until Luxury+Daily reaches 2.8M subs and 146.3B views on @YouTube (https://socialblade.com/youtube/channel/UC8AfrDPCHpZGfgFdyQS8AHQ/futureprojections) via @SocialBlade
+2019-09-02
+2yr 3mo
+3,109,000
+1,643,487,000
+
+https://twitter.com/intent/tweet?text=2 years and 3 months until Luxury+Daily reaches 3.1M subs and 164.3B views on @YouTube (https://socialblade.com/youtube/channel/UC8AfrDPCHpZGfgFdyQS8AHQ/futureprojections) via @SocialBlade
+2019-12-03
+2yr 6mo
+3,451,000
+1,824,004,000
+
+https://twitter.com/intent/tweet?text=2 years and 6 months until Luxury+Daily reaches 3.5M subs and 182.4B views on @YouTube (https://socialblade.com/youtube/channel/UC8AfrDPCHpZGfgFdyQS8AHQ/futureprojections) via @SocialBlade
+2020-03-03
+2yr 9mo
+3,793,000
+2,004,520,000
+
+https://twitter.com/intent/tweet?text=2 years and 9 months until Luxury+Daily reaches 3.8M subs and 200.5B views on @YouTube (https://socialblade.com/youtube/channel/UC8AfrDPCHpZGfgFdyQS8AHQ/futureprojections) via @SocialBlade
+2020-06-02
+3 years
+4,134,000
+2,185,037,000
+
+https://twitter.com/intent/tweet?text=3 years until Luxury+Daily reaches 4.1M subs and 218.5B views on @YouTube (https://socialblade.com/youtube/channel/UC8AfrDPCHpZGfgFdyQS8AHQ/futureprojections) via @SocialBlade
+2020-09-02
+3yr 3mo
+4,476,000
+2,365,553,000
+
+https://twitter.com/intent/tweet?text=3 years and 3 months until Luxury+Daily reaches 4.5M subs and 236.6B views on @YouTube (https://socialblade.com/youtube/channel/UC8AfrDPCHpZGfgFdyQS8AHQ/futureprojections) via @SocialBlade
+2020-12-02
+3yr 6mo
+4,818,000
+2,546,070,000
+
+https://twitter.com/intent/tweet?text=3 years and 6 months until Luxury+Daily reaches 4.8M subs and 254.6B views on @YouTube (https://socialblade.com/youtube/channel/UC8AfrDPCHpZGfgFdyQS8AHQ/futureprojections) via @SocialBlade
+2021-03-03
+3yr 9mo
+5,159,000
+2,726,587,000
+
+https://twitter.com/intent/tweet?text=3 years and 9 months until Luxury+Daily reaches 5.2M subs and 272.7B views on @YouTube (https://socialblade.com/youtube/channel/UC8AfrDPCHpZGfgFdyQS8AHQ/futureprojections) via @SocialBlade
+2021-06-03
+4 years
+5,501,000
+2,907,103,000
+
+https://twitter.com/intent/tweet?text=4 years until Luxury+Daily reaches 5.5M subs and 290.7B views on @YouTube (https://socialblade.com/youtube/channel/UC8AfrDPCHpZGfgFdyQS8AHQ/futureprojections) via @SocialBlade
+2021-09-02
+4yr 3mo
+5,842,000
+3,087,620,000
+
+https://twitter.com/intent/tweet?text=4 years and 3 months until Luxury+Daily reaches 5.8M subs and 308.8B views on @YouTube (https://socialblade.com/youtube/channel/UC8AfrDPCHpZGfgFdyQS8AHQ/futureprojections) via @SocialBlade
+2021-12-02
+4yr 6mo
+6,184,000
+3,268,136,000
+
+https://twitter.com/intent/tweet?text=4 years and 6 months until Luxury+Daily reaches 6.2M subs and 326.8B views on @YouTube (https://socialblade.com/youtube/channel/UC8AfrDPCHpZGfgFdyQS8AHQ/futureprojections) via @SocialBlade
+2022-03-03
+4yr 9mo
+6,526,000
+3,448,653,000
+
+https://twitter.com/intent/tweet?text=4 years and 9 months until Luxury+Daily reaches 6.5M subs and 344.9B views on @YouTube (https://socialblade.com/youtube/channel/UC8AfrDPCHpZGfgFdyQS8AHQ/futureprojections) via @SocialBlade
+2022-06-03
+5 years
+6,867,000
+3,629,170,000
+
+https://twitter.com/intent/tweet?text=5 years until Luxury+Daily reaches 6.9M subs and 362.9B views on @YouTube (https://socialblade.com/youtube/channel/UC8AfrDPCHpZGfgFdyQS8AHQ/futureprojections) via @SocialBlade
+

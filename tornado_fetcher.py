@@ -29,7 +29,7 @@ class Fetcher(object):
         'timeout': 120,
     }
 
-    def __init__(self, phantomjs_proxy='http://localhost:8080', user_agent='', pool_size=100, async=False):
+    def __init__(self, phantomjs_proxy='http://localhost:8808', user_agent='', pool_size=100, async=False):
         self.phantomjs_proxy = phantomjs_proxy
         self.user_agent = user_agent
         self.async = async

@@ -1,0 +1,344 @@
+https://socialblade.com/youtube/channel/UC9x5F3B-pfa0czB1nyXmJiA
+>>>>>>>>>>->user_info
+Uploads500
+500
+Subscribers155
+155
+Video Views13,843,952
+13843952
+Country
+https://socialblade.com//socialblade.com/youtube/top/country/
+Channel TypeEntertainment
+entertainment
+https://socialblade.com//socialblade.com/youtube/top/category/entertainment
+User CreatedFeb 23rd, 2017
+
+>>>>>>>>>>->30days_view_info
+51,801,600
+--
+
+>>>>>>>>>>->30days_view_extrainfo
+--empty--
+>>>>>>>>>>->30days_sub_info
+131
+--
+
+>>>>>>>>>>->30days_sub_extrainfo
+--empty--
+>>>>>>>>>>->monthly_table
+2017-05-26
+Fri
++7
+7
+--
+0
+$0  -  $0
+2017-05-27
+Sat
++6
+13
+--
+0
+$0  -  $0
+2017-05-28
+Sun
++22
+35
++11,717,851
+11,717,851
+$2.9K  -  $46.9K
+2017-05-29
+Mon
++31
+66
++36,349
+11,754,200
+$9  -  $145
+2017-05-30
+Tue
++15
+81
++46,724
+11,800,924
+$12  -  $187
+2017-05-31
+Wed
++21
+102
++50,653
+11,851,577
+$13  -  $203
+2017-06-01
+Thu
++23
+125
+--
+11,851,577
+$0  -  $0
+2017-06-02
+Fri
++13
+138
++1,962,200
+13,813,777
+$491  -  $7.8K
+2017-06-03
+Sat
++17
+155
++30,175
+13,843,952
+$8  -  $121
+https://socialblade.com/youtube/channel/UC9x5F3B-pfa0czB1nyXmJiA/realtime
+Daily Averages
++5
++1,726,720
+$115  -  $1.8K
+https://twitter.com/intent/tweet?text=On @YouTube New+Girl gets 5 subs/day and 1.7M views/day ($115 - $1.8K per day) - http://socialblade.com/youtube/channel/UC9x5F3B-pfa0czB1nyXmJiA via @SocialBlade
+Last 30 Days
++131
++51,801,600
+$3.5K  -  $55.3K
+https://twitter.com/intent/tweet?text=On @YouTube New+Girl gets 131 subs/month and 51.8M views/month($3.5K - $55.3K per month) - http://socialblade.com/youtube/channel/UC9x5F3B-pfa0czB1nyXmJiA via @SocialBlade
+Yearly Projections
++1.6K
++621.6M
+$41.4K  -  $663.1K
+https://twitter.com/intent/tweet?text=On @YouTube New+Girl gets 1.6K subs/year and 621.6M views/year ($41.4K - $663.1K per year) - http://socialblade.com/youtube/channel/UC9x5F3B-pfa0czB1nyXmJiA via @SocialBlade
+YouTube Channel
+Similar Channels
+See Future Projections
+Apply for Partnership
+https://youtube.com/channel/UC9x5F3B-pfa0czB1nyXmJiA
+YouTube Statistical History for New Girl
+g = new Dygraph(
+// containing div
+document.getElementById('DailySubscribers'),
+// CSV or path to a CSV file.
+"Date,Daily Subs\n" + "2017-05-27,22\n" + "2017-05-28,31\n" + "2017-05-29,15\n" + "2017-05-30,21\n" + "2017-05-31,23\n" + "2017-06-01,13\n" + "2017-06-02,17\n", {
+title: 'Daily Subs Gained for New Girl ',
+legend: 'always',
+ylabel: 'Daily Subs',
+titleHeight: 20,
+labelsDivStyles: {
+'background': 'none',
+'margin-top': '-10px',
+'text-align': 'right',
+},
+strokeWidth: 1,
+colors: ["#dd2323",
+"#dd2323",
+"#dd2323",
+"#dd2323"],
+labelsKMB: true,
+maxNumberWidth: 10
+}
+);
+g = new Dygraph(
+// containing div
+document.getElementById('TotalSubscribers'),
+// CSV or path to a CSV file.
+"Date,Total Subs\n" + "2017-05-27,13\n" + "2017-05-28,35\n" + "2017-05-29,66\n" + "2017-05-30,81\n" + "2017-05-31,102\n" + "2017-06-01,125\n" + "2017-06-02,138\n" + "2017-06-03,155\n", {
+title: 'Total Subscribers Gained for New Girl ',
+legend: 'always',
+ylabel: 'Total Subs',
+titleHeight: 20,
+labelsDivStyles: {
+'background': 'none',
+'margin-top': '-10px',
+'text-align': 'right',
+},
+strokeWidth: 1,
+colors: ["#dd2323",
+"#dd2323",
+"#dd2323",
+"#dd2323"],
+labelsKMB: true,
+maxNumberWidth: 10
+}
+);
+g = new Dygraph(
+// containing div
+document.getElementById('DailyVideoViews'),
+// CSV or path to a CSV file.
+"Date,Daily Views\n" + "2017-05-27,11717851\n" + "2017-05-28,36349\n" + "2017-05-29,46724\n" + "2017-05-30,50653\n" + "2017-05-31,0\n" + "2017-06-01,1962200\n" + "2017-06-02,30175\n", {
+title: 'Daily Video Views for New Girl ',
+legend: 'always',
+ylabel: 'Daily Views',
+titleHeight: 20,
+labelsDivStyles: {
+'background': 'none',
+'margin-top': '-10px',
+'text-align': 'right',
+},
+strokeWidth: 1,
+colors: ["#dd2323",
+"#dd2323",
+"#dd2323",
+"#dd2323"],
+labelsKMB: true,
+maxNumberWidth: 10
+}
+);
+g = new Dygraph(
+// containing div
+document.getElementById('TotalVideoViews'),
+// CSV or path to a CSV file.
+"Date,Total Views\n" + "2017-05-27,0\n" + "2017-05-28,11717851\n" + "2017-05-29,11754200\n" + "2017-05-30,11800924\n" + "2017-05-31,11851577\n" + "2017-06-01,11851577\n" + "2017-06-02,13813777\n" + "2017-06-03,13843952\n", {
+title: 'Total Video Views for New Girl ',
+legend: 'always',
+ylabel: 'Total Views',
+titleHeight: 20,
+labelsDivStyles: {
+'background': 'none',
+'margin-top': '-10px',
+'text-align': 'right',
+},
+strokeWidth: 1,
+colors: ["#dd2323",
+"#dd2323",
+"#dd2323",
+"#dd2323"],
+labelsKMB: true,
+maxNumberWidth: 10
+}
+);
+
+>>>>>>>>>>->future_pro
+2017-06-03
+-- Now --
+155
+13,843,952
+2017-07-03
+30 days
+653
+66,401,000
+
+https://twitter.com/intent/tweet?text=30 days until New+Girl reaches 653 subs and 66.4M views on @YouTube (https://socialblade.com/youtube/channel/UC9x5F3B-pfa0czB1nyXmJiA/futureprojections) via @SocialBlade
+2017-08-02
+60 days
+1,152
+118,959,000
+
+https://twitter.com/intent/tweet?text=60 days until New+Girl reaches 1.2K subs and 119.0M views on @YouTube (https://socialblade.com/youtube/channel/UC9x5F3B-pfa0czB1nyXmJiA/futureprojections) via @SocialBlade
+2017-09-02
+3 months
+1,650
+171,516,000
+
+https://twitter.com/intent/tweet?text=3 months until New+Girl reaches 1.7K subs and 171.5M views on @YouTube (https://socialblade.com/youtube/channel/UC9x5F3B-pfa0czB1nyXmJiA/futureprojections) via @SocialBlade
+2017-12-02
+6 months
+3,145
+329,187,000
+
+https://twitter.com/intent/tweet?text=6 months until New+Girl reaches 3.1K subs and 329.2M views on @YouTube (https://socialblade.com/youtube/channel/UC9x5F3B-pfa0czB1nyXmJiA/futureprojections) via @SocialBlade
+2018-03-03
+9 months
+4,641
+486,858,000
+
+https://twitter.com/intent/tweet?text=9 months until New+Girl reaches 4.6K subs and 486.9M views on @YouTube (https://socialblade.com/youtube/channel/UC9x5F3B-pfa0czB1nyXmJiA/futureprojections) via @SocialBlade
+2018-06-03
+1 year
+6,136
+644,529,000
+
+https://twitter.com/intent/tweet?text=1 year until New+Girl reaches 6.1K subs and 644.5M views on @YouTube (https://socialblade.com/youtube/channel/UC9x5F3B-pfa0czB1nyXmJiA/futureprojections) via @SocialBlade
+2018-09-02
+1yr 3mo
+7,631
+802,200,000
+
+https://twitter.com/intent/tweet?text=1 year and 3 months until New+Girl reaches 7.6K subs and 802.2M views on @YouTube (https://socialblade.com/youtube/channel/UC9x5F3B-pfa0czB1nyXmJiA/futureprojections) via @SocialBlade
+2018-12-02
+1yr 6mo
+9,126
+959,871,000
+
+https://twitter.com/intent/tweet?text=1 year and 6 months until New+Girl reaches 9.1K subs and 959.9M views on @YouTube (https://socialblade.com/youtube/channel/UC9x5F3B-pfa0czB1nyXmJiA/futureprojections) via @SocialBlade
+2019-03-04
+1yr 9mo
+11,000
+1,117,542,000
+
+https://twitter.com/intent/tweet?text=1 year and 9 months until New+Girl reaches 10.6K subs and 111.8B views on @YouTube (https://socialblade.com/youtube/channel/UC9x5F3B-pfa0czB1nyXmJiA/futureprojections) via @SocialBlade
+2019-06-03
+2 years
+13,000
+1,275,213,000
+
+https://twitter.com/intent/tweet?text=2 years until New+Girl reaches 12.1K subs and 127.5B views on @YouTube (https://socialblade.com/youtube/channel/UC9x5F3B-pfa0czB1nyXmJiA/futureprojections) via @SocialBlade
+2019-09-02
+2yr 3mo
+14,000
+1,432,885,000
+
+https://twitter.com/intent/tweet?text=2 years and 3 months until New+Girl reaches 13.6K subs and 143.3B views on @YouTube (https://socialblade.com/youtube/channel/UC9x5F3B-pfa0czB1nyXmJiA/futureprojections) via @SocialBlade
+2019-12-03
+2yr 6mo
+16,000
+1,590,556,000
+
+https://twitter.com/intent/tweet?text=2 years and 6 months until New+Girl reaches 15.1K subs and 159.1B views on @YouTube (https://socialblade.com/youtube/channel/UC9x5F3B-pfa0czB1nyXmJiA/futureprojections) via @SocialBlade
+2020-03-03
+2yr 9mo
+17,000
+1,748,227,000
+
+https://twitter.com/intent/tweet?text=2 years and 9 months until New+Girl reaches 16.6K subs and 174.8B views on @YouTube (https://socialblade.com/youtube/channel/UC9x5F3B-pfa0czB1nyXmJiA/futureprojections) via @SocialBlade
+2020-06-02
+3 years
+19,000
+1,905,898,000
+
+https://twitter.com/intent/tweet?text=3 years until New+Girl reaches 18.1K subs and 190.6B views on @YouTube (https://socialblade.com/youtube/channel/UC9x5F3B-pfa0czB1nyXmJiA/futureprojections) via @SocialBlade
+2020-09-02
+3yr 3mo
+20,000
+2,063,569,000
+
+https://twitter.com/intent/tweet?text=3 years and 3 months until New+Girl reaches 19.6K subs and 206.4B views on @YouTube (https://socialblade.com/youtube/channel/UC9x5F3B-pfa0czB1nyXmJiA/futureprojections) via @SocialBlade
+2020-12-02
+3yr 6mo
+22,000
+2,221,240,000
+
+https://twitter.com/intent/tweet?text=3 years and 6 months until New+Girl reaches 21.1K subs and 222.1B views on @YouTube (https://socialblade.com/youtube/channel/UC9x5F3B-pfa0czB1nyXmJiA/futureprojections) via @SocialBlade
+2021-03-03
+3yr 9mo
+23,000
+2,378,911,000
+
+https://twitter.com/intent/tweet?text=3 years and 9 months until New+Girl reaches 22.6K subs and 237.9B views on @YouTube (https://socialblade.com/youtube/channel/UC9x5F3B-pfa0czB1nyXmJiA/futureprojections) via @SocialBlade
+2021-06-03
+4 years
+25,000
+2,536,582,000
+
+https://twitter.com/intent/tweet?text=4 years until New+Girl reaches 24.1K subs and 253.7B views on @YouTube (https://socialblade.com/youtube/channel/UC9x5F3B-pfa0czB1nyXmJiA/futureprojections) via @SocialBlade
+2021-09-02
+4yr 3mo
+26,000
+2,694,253,000
+
+https://twitter.com/intent/tweet?text=4 years and 3 months until New+Girl reaches 25.6K subs and 269.4B views on @YouTube (https://socialblade.com/youtube/channel/UC9x5F3B-pfa0czB1nyXmJiA/futureprojections) via @SocialBlade
+2021-12-02
+4yr 6mo
+28,000
+2,851,925,000
+
+https://twitter.com/intent/tweet?text=4 years and 6 months until New+Girl reaches 27.1K subs and 285.2B views on @YouTube (https://socialblade.com/youtube/channel/UC9x5F3B-pfa0czB1nyXmJiA/futureprojections) via @SocialBlade
+2022-03-03
+4yr 9mo
+29,000
+3,009,596,000
+
+https://twitter.com/intent/tweet?text=4 years and 9 months until New+Girl reaches 28.6K subs and 301.0B views on @YouTube (https://socialblade.com/youtube/channel/UC9x5F3B-pfa0czB1nyXmJiA/futureprojections) via @SocialBlade
+2022-06-03
+5 years
+31,000
+3,167,267,000
+
+https://twitter.com/intent/tweet?text=5 years until New+Girl reaches 30.1K subs and 316.7B views on @YouTube (https://socialblade.com/youtube/channel/UC9x5F3B-pfa0czB1nyXmJiA/futureprojections) via @SocialBlade
+

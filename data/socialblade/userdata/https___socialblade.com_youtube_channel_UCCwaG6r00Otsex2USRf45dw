@@ -1,0 +1,365 @@
+https://socialblade.com/youtube/channel/UCCwaG6r00Otsex2USRf45dw
+>>>>>>>>>>->user_info
+Uploads14
+14
+Subscribers136,426
+136426
+Video Views36,589,661
+36589661
+Country
+https://socialblade.com//socialblade.com/youtube/top/country/
+Channel TypeEntertainment
+entertainment
+https://socialblade.com//socialblade.com/youtube/top/category/entertainment
+User CreatedJan 23rd, 2017
+
+>>>>>>>>>>->30days_view_info
+93,741,900
+--
+
+>>>>>>>>>>->30days_view_extrainfo
+--empty--
+>>>>>>>>>>->30days_sub_info
+127,852
+--
+
+>>>>>>>>>>->30days_sub_extrainfo
+--empty--
+>>>>>>>>>>->monthly_table
+2017-05-23
+Tue
++1,900
+1,900
++402,453
+402,453
+$101  -  $1.6K
+2017-05-24
+Wed
++1,715
+3,615
++22,557
+425,010
+$6  -  $90
+2017-05-25
+Thu
++7,251
+10,866
++414,920
+839,930
+$104  -  $1.7K
+2017-05-26
+Fri
++2,694
+13,560
++1,563,382
+2,403,312
+$391  -  $6.3K
+2017-05-27
+Sat
++32,261
+45,821
++1,615,828
+4,019,140
+$404  -  $6.5K
+2017-05-28
+Sun
++24,490
+70,311
++5,453,514
+9,472,654
+$1.4K  -  $21.8K
+2017-05-29
+Mon
++21,640
+91,951
++4,699,433
+14,172,087
+$1.2K  -  $18.8K
+2017-05-30
+Tue
++17,526
+109,477
++6,853,764
+21,025,851
+$1.7K  -  $27.4K
+2017-05-31
+Wed
++9,116
+118,593
++6,535,374
+27,561,225
+$1.6K  -  $26.1K
+2017-06-01
+Thu
++6,769
+125,362
++4,624,010
+32,185,235
+$1.2K  -  $18.5K
+2017-06-02
+Fri
++4,390
+129,752
++2,589,206
+34,774,441
+$647  -  $10.4K
+2017-06-03
+Sat
++6,674
+136,426
++1,815,220
+36,589,661
+$454  -  $7.3K
+https://socialblade.com/youtube/channel/UCCwaG6r00Otsex2USRf45dw/realtime
+Daily Averages
++4,262
++3,124,730
+$286  -  $4.6K
+https://twitter.com/intent/tweet?text=On @YouTube Children%27s+Colors gets 4.3K subs/day and 3.1M views/day ($286 - $4.6K per day) - http://socialblade.com/youtube/channel/UCCwaG6r00Otsex2USRf45dw via @SocialBlade
+Last 30 Days
++127,852
++93,741,900
+$8.6K  -  $137.5K
+https://twitter.com/intent/tweet?text=On @YouTube Children%27s+Colors gets 127.9K subs/month and 93.7M views/month($8.6K - $137.5K per month) - http://socialblade.com/youtube/channel/UCCwaG6r00Otsex2USRf45dw via @SocialBlade
+Yearly Projections
++1.5M
++1.1B
+$103.1K  -  $1.6M
+https://twitter.com/intent/tweet?text=On @YouTube Children%27s+Colors gets 1.5M subs/year and 1.1B views/year ($103.1K - $1.6M per year) - http://socialblade.com/youtube/channel/UCCwaG6r00Otsex2USRf45dw via @SocialBlade
+YouTube Channel
+Similar Channels
+See Future Projections
+Apply for Partnership
+https://youtube.com/channel/UCCwaG6r00Otsex2USRf45dw
+YouTube Statistical History for Children's Colors
+g = new Dygraph(
+// containing div
+document.getElementById('DailySubscribers'),
+// CSV or path to a CSV file.
+"Date,Daily Subs\n" + "2017-05-24,7251\n" + "2017-05-25,2694\n" + "2017-05-26,32261\n" + "2017-05-27,24490\n" + "2017-05-28,21640\n" + "2017-05-29,17526\n" + "2017-05-30,9116\n" + "2017-05-31,6769\n" + "2017-06-01,4390\n" + "2017-06-02,6674\n", {
+title: 'Daily Subs Gained for Children\'s Colors ',
+legend: 'always',
+ylabel: 'Daily Subs',
+titleHeight: 20,
+labelsDivStyles: {
+'background': 'none',
+'margin-top': '-10px',
+'text-align': 'right',
+},
+strokeWidth: 1,
+colors: ["#dd2323",
+"#dd2323",
+"#dd2323",
+"#dd2323"],
+labelsKMB: true,
+maxNumberWidth: 10
+}
+);
+g = new Dygraph(
+// containing div
+document.getElementById('TotalSubscribers'),
+// CSV or path to a CSV file.
+"Date,Total Subs\n" + "2017-05-24,3615\n" + "2017-05-25,10866\n" + "2017-05-26,13560\n" + "2017-05-27,45821\n" + "2017-05-28,70311\n" + "2017-05-29,91951\n" + "2017-05-30,109477\n" + "2017-05-31,118593\n" + "2017-06-01,125362\n" + "2017-06-02,129752\n" + "2017-06-03,136426\n", {
+title: 'Total Subscribers Gained for Children\'s Colors ',
+legend: 'always',
+ylabel: 'Total Subs',
+titleHeight: 20,
+labelsDivStyles: {
+'background': 'none',
+'margin-top': '-10px',
+'text-align': 'right',
+},
+strokeWidth: 1,
+colors: ["#dd2323",
+"#dd2323",
+"#dd2323",
+"#dd2323"],
+labelsKMB: true,
+maxNumberWidth: 10
+}
+);
+g = new Dygraph(
+// containing div
+document.getElementById('DailyVideoViews'),
+// CSV or path to a CSV file.
+"Date,Daily Views\n" + "2017-05-24,414920\n" + "2017-05-25,1563382\n" + "2017-05-26,1615828\n" + "2017-05-27,5453514\n" + "2017-05-28,4699433\n" + "2017-05-29,6853764\n" + "2017-05-30,6535374\n" + "2017-05-31,4624010\n" + "2017-06-01,2589206\n" + "2017-06-02,1815220\n", {
+title: 'Daily Video Views for Children\'s Colors ',
+legend: 'always',
+ylabel: 'Daily Views',
+titleHeight: 20,
+labelsDivStyles: {
+'background': 'none',
+'margin-top': '-10px',
+'text-align': 'right',
+},
+strokeWidth: 1,
+colors: ["#dd2323",
+"#dd2323",
+"#dd2323",
+"#dd2323"],
+labelsKMB: true,
+maxNumberWidth: 10
+}
+);
+g = new Dygraph(
+// containing div
+document.getElementById('TotalVideoViews'),
+// CSV or path to a CSV file.
+"Date,Total Views\n" + "2017-05-24,425010\n" + "2017-05-25,839930\n" + "2017-05-26,2403312\n" + "2017-05-27,4019140\n" + "2017-05-28,9472654\n" + "2017-05-29,14172087\n" + "2017-05-30,21025851\n" + "2017-05-31,27561225\n" + "2017-06-01,32185235\n" + "2017-06-02,34774441\n" + "2017-06-03,36589661\n", {
+title: 'Total Video Views for Children\'s Colors ',
+legend: 'always',
+ylabel: 'Total Views',
+titleHeight: 20,
+labelsDivStyles: {
+'background': 'none',
+'margin-top': '-10px',
+'text-align': 'right',
+},
+strokeWidth: 1,
+colors: ["#dd2323",
+"#dd2323",
+"#dd2323",
+"#dd2323"],
+labelsKMB: true,
+maxNumberWidth: 10
+}
+);
+
+>>>>>>>>>>->future_pro
+2017-06-03
+-- Now --
+136,426
+36,589,661
+2017-07-03
+30 days
+491,000
+131,699,000
+
+https://twitter.com/intent/tweet?text=30 days until Children%27s+Colors reaches 490.2K subs and 131.7M views on @YouTube (https://socialblade.com/youtube/channel/UCCwaG6r00Otsex2USRf45dw/futureprojections) via @SocialBlade
+2017-08-02
+60 days
+844,000
+226,808,000
+
+https://twitter.com/intent/tweet?text=60 days until Children%27s+Colors reaches 844.0K subs and 226.8M views on @YouTube (https://socialblade.com/youtube/channel/UCCwaG6r00Otsex2USRf45dw/futureprojections) via @SocialBlade
+2017-09-02
+3 months
+1,198,000
+321,917,000
+
+https://twitter.com/intent/tweet?text=3 months until Children%27s+Colors reaches 1.2M subs and 321.9M views on @YouTube (https://socialblade.com/youtube/channel/UCCwaG6r00Otsex2USRf45dw/futureprojections) via @SocialBlade
+2017-12-02
+6 months
+2,260,000
+607,244,000
+
+https://twitter.com/intent/tweet?text=6 months until Children%27s+Colors reaches 2.3M subs and 607.2M views on @YouTube (https://socialblade.com/youtube/channel/UCCwaG6r00Otsex2USRf45dw/futureprojections) via @SocialBlade
+2018-03-03
+9 months
+3,321,000
+892,571,000
+
+https://twitter.com/intent/tweet?text=9 months until Children%27s+Colors reaches 3.3M subs and 892.6M views on @YouTube (https://socialblade.com/youtube/channel/UCCwaG6r00Otsex2USRf45dw/futureprojections) via @SocialBlade
+2018-06-03
+1 year
+4,382,000
+1,177,898,000
+
+https://twitter.com/intent/tweet?text=1 year until Children%27s+Colors reaches 4.4M subs and 117.8B views on @YouTube (https://socialblade.com/youtube/channel/UCCwaG6r00Otsex2USRf45dw/futureprojections) via @SocialBlade
+2018-09-02
+1yr 3mo
+5,444,000
+1,463,225,000
+
+https://twitter.com/intent/tweet?text=1 year and 3 months until Children%27s+Colors reaches 5.4M subs and 146.3B views on @YouTube (https://socialblade.com/youtube/channel/UCCwaG6r00Otsex2USRf45dw/futureprojections) via @SocialBlade
+2018-12-02
+1yr 6mo
+6,505,000
+1,748,552,000
+
+https://twitter.com/intent/tweet?text=1 year and 6 months until Children%27s+Colors reaches 6.5M subs and 174.9B views on @YouTube (https://socialblade.com/youtube/channel/UCCwaG6r00Otsex2USRf45dw/futureprojections) via @SocialBlade
+2019-03-04
+1yr 9mo
+7,566,000
+2,033,879,000
+
+https://twitter.com/intent/tweet?text=1 year and 9 months until Children%27s+Colors reaches 7.6M subs and 203.4B views on @YouTube (https://socialblade.com/youtube/channel/UCCwaG6r00Otsex2USRf45dw/futureprojections) via @SocialBlade
+2019-06-03
+2 years
+8,627,000
+2,319,205,000
+
+https://twitter.com/intent/tweet?text=2 years until Children%27s+Colors reaches 8.6M subs and 231.9B views on @YouTube (https://socialblade.com/youtube/channel/UCCwaG6r00Otsex2USRf45dw/futureprojections) via @SocialBlade
+2019-09-02
+2yr 3mo
+9,689,000
+2,604,532,000
+
+https://twitter.com/intent/tweet?text=2 years and 3 months until Children%27s+Colors reaches 9.7M subs and 260.5B views on @YouTube (https://socialblade.com/youtube/channel/UCCwaG6r00Otsex2USRf45dw/futureprojections) via @SocialBlade
+2019-12-03
+2yr 6mo
+10,750,000
+2,889,859,000
+
+https://twitter.com/intent/tweet?text=2 years and 6 months until Children%27s+Colors reaches 10.7M subs and 289.0B views on @YouTube (https://socialblade.com/youtube/channel/UCCwaG6r00Otsex2USRf45dw/futureprojections) via @SocialBlade
+2020-03-03
+2yr 9mo
+11,811,000
+3,175,186,000
+
+https://twitter.com/intent/tweet?text=2 years and 9 months until Children%27s+Colors reaches 11.8M subs and 317.5B views on @YouTube (https://socialblade.com/youtube/channel/UCCwaG6r00Otsex2USRf45dw/futureprojections) via @SocialBlade
+2020-06-02
+3 years
+12,873,000
+3,460,513,000
+
+https://twitter.com/intent/tweet?text=3 years until Children%27s+Colors reaches 12.9M subs and 346.1B views on @YouTube (https://socialblade.com/youtube/channel/UCCwaG6r00Otsex2USRf45dw/futureprojections) via @SocialBlade
+2020-09-02
+3yr 3mo
+13,934,000
+3,745,840,000
+
+https://twitter.com/intent/tweet?text=3 years and 3 months until Children%27s+Colors reaches 13.9M subs and 374.6B views on @YouTube (https://socialblade.com/youtube/channel/UCCwaG6r00Otsex2USRf45dw/futureprojections) via @SocialBlade
+2020-12-02
+3yr 6mo
+14,995,000
+4,031,167,000
+
+https://twitter.com/intent/tweet?text=3 years and 6 months until Children%27s+Colors reaches 15.0M subs and 403.1B views on @YouTube (https://socialblade.com/youtube/channel/UCCwaG6r00Otsex2USRf45dw/futureprojections) via @SocialBlade
+2021-03-03
+3yr 9mo
+16,057,000
+4,316,494,000
+
+https://twitter.com/intent/tweet?text=3 years and 9 months until Children%27s+Colors reaches 16.1M subs and 431.6B views on @YouTube (https://socialblade.com/youtube/channel/UCCwaG6r00Otsex2USRf45dw/futureprojections) via @SocialBlade
+2021-06-03
+4 years
+17,118,000
+4,601,821,000
+
+https://twitter.com/intent/tweet?text=4 years until Children%27s+Colors reaches 17.1M subs and 460.2B views on @YouTube (https://socialblade.com/youtube/channel/UCCwaG6r00Otsex2USRf45dw/futureprojections) via @SocialBlade
+2021-09-02
+4yr 3mo
+18,179,000
+4,887,148,000
+
+https://twitter.com/intent/tweet?text=4 years and 3 months until Children%27s+Colors reaches 18.2M subs and 488.7B views on @YouTube (https://socialblade.com/youtube/channel/UCCwaG6r00Otsex2USRf45dw/futureprojections) via @SocialBlade
+2021-12-02
+4yr 6mo
+19,241,000
+5,172,475,000
+
+https://twitter.com/intent/tweet?text=4 years and 6 months until Children%27s+Colors reaches 19.2M subs and 517.2B views on @YouTube (https://socialblade.com/youtube/channel/UCCwaG6r00Otsex2USRf45dw/futureprojections) via @SocialBlade
+2022-03-03
+4yr 9mo
+20,302,000
+5,457,801,000
+
+https://twitter.com/intent/tweet?text=4 years and 9 months until Children%27s+Colors reaches 20.3M subs and 545.8B views on @YouTube (https://socialblade.com/youtube/channel/UCCwaG6r00Otsex2USRf45dw/futureprojections) via @SocialBlade
+2022-06-03
+5 years
+21,363,000
+5,743,128,000
+
+https://twitter.com/intent/tweet?text=5 years until Children%27s+Colors reaches 21.4M subs and 574.3B views on @YouTube (https://socialblade.com/youtube/channel/UCCwaG6r00Otsex2USRf45dw/futureprojections) via @SocialBlade
+

@@ -51,6 +51,7 @@ class DetailExtractor:
         if not corpus:
             corpus = dict()
         corpus['para_special'] = []
+
         contents = html_tree.xpath(content_xpath) if content_xpath else []
         article = ''
         if self.para_info.get("next_page"):
