@@ -967,3 +967,44 @@
 2017-06-04 10:15:34,779 processing leve2_url[https://socialblade.com/youtube/channel/UC_DVkYrg5uDDEjLHx4bStig] , [4142] left
 2017-06-04 10:55:15,369 *********proessing domain[socialblade]*********
 2017-06-04 10:55:16,540 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/us], [6] left
+2017-06-10 14:18:21,710 *********proessing domain[socialblade]*********
+2017-06-10 14:18:23,255 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/us], [6] left
+2017-06-10 14:18:26,806 processing detail [https://socialblade.com/youtube/top/country/us], [0] left
+2017-06-10 14:18:39,305 processing leve2_url[https://socialblade.com/youtube/user/michellephan] , [100] left
+2017-06-10 14:18:43,086 processing leve2_url[https://socialblade.com/youtube/user/hgjghz9soohvbb0y4doo_w] , [99] left
+2017-06-10 14:18:49,519 processing leve2_url[https://socialblade.com/youtube/user/luisfonsivevo] , [98] left
+2017-06-10 14:18:55,910 processing leve2_url[https://socialblade.com/youtube/user/bmvc6jvutxh6tno9thpyjg] , [97] left
+2017-06-10 14:19:03,903 processing leve2_url[https://socialblade.com/youtube/user/katyperryvevo] , [96] left
+2017-06-10 14:19:11,404 processing leve2_url[https://socialblade.com/youtube/user/malumavevo] , [95] left
+2017-06-10 14:19:19,181 processing leve2_url[https://socialblade.com/youtube/user/umfpttp-0sdhr4fix4q3uq] , [94] left
+2017-06-10 14:19:25,321 processing leve2_url[https://socialblade.com/youtube/user/wwefannation] , [93] left
+2017-06-10 14:19:32,625 processing leve2_url[https://socialblade.com/youtube/user/shakiravevo] , [92] left
+2017-06-10 14:19:41,308 processing leve2_url[https://socialblade.com/youtube/user/toypudding] , [91] left
+2017-06-10 14:19:47,124 processing leve2_url[https://socialblade.com/youtube/user/jakepaulproductions] , [90] left
+2017-06-10 14:19:53,029 processing leve2_url[https://socialblade.com/youtube/user/thevougiou] , [89] left
+2017-06-10 14:20:00,092 processing leve2_url[https://socialblade.com/youtube/user/movieclips] , [88] left
+2017-06-10 14:20:59,040 *********proessing domain[socialblade]*********
+2017-06-10 14:21:00,201 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/us], [6] left
+2017-06-10 14:21:05,348 processing detail [https://socialblade.com/youtube/top/country/us], [0] left
+2017-06-10 14:21:17,506 processing leve2_url[https://socialblade.com/youtube/user/michellephan] , [100] left
+2017-06-10 14:27:21,486 *********proessing domain[socialblade]*********
+2017-06-10 14:27:22,684 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/us], [6] left
+2017-06-10 14:27:28,282 processing detail [https://socialblade.com/youtube/top/country/us], [0] left
+2017-06-10 14:27:37,078 *********proessing domain[socialblade]*********
+2017-06-10 14:27:38,186 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/us], [6] left
+2017-06-10 14:27:40,858 processing detail [https://socialblade.com/youtube/top/country/us], [0] left
+2017-06-10 14:27:53,431 processing leve2_url[https://socialblade.com/youtube/user/michellephan] , [100] left
+2017-06-10 14:29:00,015 [599] https://socialblade.com/youtube/user/michellephan/videos, error(10054, '') 60.52s
+2017-06-10 14:29:00,015 processing level2url[https://socialblade.com/youtube/user/michellephan] failed for ['dict' object has no attribute 'replace']
+2017-06-10 14:29:00,016 processing leve2_url[https://socialblade.com/youtube/user/hgjghz9soohvbb0y4doo_w] , [99] left
+2017-06-10 14:29:40,838 [599] https://socialblade.com/youtube/channel/UChGJGhZ9SOOHvBB0Y4DOO_w/videos, error(10054, '') 33.80s
+2017-06-10 14:29:40,839 processing level2url[https://socialblade.com/youtube/user/hgjghz9soohvbb0y4doo_w] failed for ['dict' object has no attribute 'replace']
+2017-06-10 14:29:40,841 processing leve2_url[https://socialblade.com/youtube/user/luisfonsivevo] , [98] left
+2017-06-10 14:30:16,759 [599] https://socialblade.com/youtube/user/luisfonsivevo/videos, error(10054, '') 27.95s
+2017-06-10 14:30:16,760 processing level2url[https://socialblade.com/youtube/user/luisfonsivevo] failed for ['dict' object has no attribute 'replace']
+2017-06-10 14:30:16,760 processing leve2_url[https://socialblade.com/youtube/user/bmvc6jvutxh6tno9thpyjg] , [97] left
+2017-06-10 14:30:29,905 *********proessing domain[socialblade]*********
+2017-06-10 14:30:31,072 processing domain[socialblade] hub [https://socialblade.com/youtube/top/country/us], [6] left
+2017-06-10 14:30:33,953 processing detail [https://socialblade.com/youtube/top/country/us], [0] left
+2017-06-10 14:30:45,915 processing leve2_url[https://socialblade.com/youtube/user/michellephan] , [100] left
+2017-06-10 14:31:03,832 [599] https://socialblade.com/youtube/user/michellephan/videos, error(10061, 'Unknown error') 1.06s

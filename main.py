@@ -112,6 +112,7 @@ def extra_crawler_socialblade(doc, level2_urls):
             level2_page = doc.downloader.download(level2_url)
             main_corpus = doc.detail_extractor.extract_detail_page(level2_page, level2_url,
                                                                    xpath_dict={
+                                                                       'video_stats': './/div[@id="YouTubeUserMenu"]/a[6]/@href',
                                                                        'month_stats': './/div[@id="YouTubeUserMenu"]/a[3]/@href',
                                                                        'future_pro': './/div[@id="YouTubeUserMenu"]/a[2]/@href',
                                                                        "user_info": './/div[@id="YouTubeUserTopInfoBlock"]/div[@class="YouTubeUserTopInfo"]',
@@ -129,12 +130,21 @@ def extra_crawler_socialblade(doc, level2_urls):
                                                                           xpath_dict={
                                                                               'monthly_table': './/div[@style="width: 880px; float: left;"]/div[position()>4][position()<31]'})
             article += ">>>>>>>>>>->%s\n%s\n" % ('monthly_table', month_stats_corpus['xpath_content']['monthly_table'])
+
             future_pro_url = base_url + main_corpus['xpath_content']["future_pro"]
             future_pro_page = doc.downloader.download(future_pro_url)
-
             future_pro_corpus = doc.detail_extractor.extract_detail_page(future_pro_page, future_pro_url, xpath_dict={
                 'future_pro': './/div[@style="width: 900px; float: left;"]/div[@class="TableMonthlyStats"]'})
             article += ">>>>>>>>>>->%s\n%s\n" % ('future_pro', future_pro_corpus['xpath_content']['future_pro'])
+
+            pdb.set_trace()
+            video_stats_url = base_url + main_corpus['xpath_content']["video_stats"]
+            video_stats_page = doc.downloader.download(video_stats_url, use_phantomjs=True)
+            video_stats_corpus = doc.detail_extractor.extract_detail_page(video_stats_page, video_stats_url,
+                                                                          xpath_dict={
+                                                                              'video_table': './/div[@class="RowRecentTable"]'})
+            article += ">>>>>>>>>>->%s\n%s\n" % ('video_table', video_stats_corpus['xpath_content']['video_table'])
+
             main_corpus["content"] = article
             article_file = doc.file_path['dir'] + '/userdata/' + get_name_form_url(level2_url)
             write_corpus_into_file(article_file, main_corpus)
